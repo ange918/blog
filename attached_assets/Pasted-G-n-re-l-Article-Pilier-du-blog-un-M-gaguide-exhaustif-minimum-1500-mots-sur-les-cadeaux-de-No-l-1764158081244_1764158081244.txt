@@ -1,0 +1,25 @@
+Génère l'Article Pilier du blog : un Mégaguide exhaustif (minimum 1500 mots) sur les cadeaux de Noël 2025. Cet article doit être la page d'autorité du site et le hub principal pour le maillage interne.
+
+EMPLACEMENT DU FICHIER : Créez ce contenu dans un nouveau fichier nommé 'megaguide-cadeaux-noel-2025.html' et intégrez-le dans le répertoire prévu pour les articles (ex: /blog/megaguide-cadeaux-noel-2025.html) en utilisant le style du gabarit d'article déjà créé.
+
+I. STRUCTURE & TITRES SEO
+- Balise <title> : "Meilleures Idées Cadeaux de Noël 2025 : Le Guide Ultime pour Trouver le Cadeau Parfait | [Nom de votre Marque]"
+- Titre H1 : "Meilleures Idées Cadeaux de Noël 2025 : Le Guide Ultime pour un Noël Mémorable"
+
+II. CONTENU ET CURATION
+- Organiser le corps de l'article avec des H2 basés sur les catégories de produits intemporels (ex: Cocooning, Gastronomie, Tech, Expérience).
+- Pour chaque H2, décrire le concept du cadeau puis intégrer un BLOC DE RECOMMANDATION :
+  ***MODÈLE DE BLOC D'AFFILIATION***
+  > Titre H3 : Notre Meilleur Choix 2025 dans cette Catégorie
+  > Description : [Décrire le produit idéal de l'année, en le justifiant comme le "choix de l'expert 2025" et en intégrant une note d'avis (Ex: 4.8/5).]
+  > CTA Affilié (Texte à remplacer) : [Insérer le code d'un bouton CTA bien visible ici : "Acheter Notre Choix Coup de Cœur de l'Année"]
+
+III. SEO, MAILLAGE INTERNE & CLASSIFICATION
+- CLASSIFICATION (Pour Routage du Blog) : Intégrer la balise de classification suivante dans le code HTML :
+  <meta name="blog-category" content="cadeaux-originaux">
+- SCHEMAS DE DONNÉES : Intégrer le code JSON-LD de type Article et WebPage.
+- MAILLAGE INTERNE : Créer une section H2 "Nos Guides Spécialisés" avec des liens d'ancrage clairs vers toutes les autres catégories du blog (Femme, Homme, Petit Budget, Qui a Tout).
+
+IV. EXIGENCES FINALES
+- Inclure une [Illustration : Bannière festive et de haute qualité] après l'introduction.
+- Ajouter une note de transparence d'affiliation en conclusion.
