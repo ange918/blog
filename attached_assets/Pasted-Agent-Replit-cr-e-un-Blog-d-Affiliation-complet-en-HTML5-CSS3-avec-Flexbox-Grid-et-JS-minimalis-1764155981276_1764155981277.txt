@@ -1,0 +1,26 @@
+Agent Replit, crée un Blog d'Affiliation complet en HTML5, CSS3 (avec Flexbox/Grid), et JS minimaliste. Le site est dédié aux Guides et Idées Cadeaux de Noël.
+
+I. DESIGN, RESPONSIVE & TYPOGRAPHIE
+- Design : Épuré, Mobile-First, grands espaces blancs.
+- Couleurs : Blanc Pur, Gris Clair, accents en Vert Forêt (#013220) et Doré Mat (#B8860B).
+- Typographie : Titres (H1/H2) en police **Serif élégante** (Ex: Playfair Display). Corps de texte en police **Sans-serif moderne et lisible** (Ex: Poppins/Montserrat).
+
+II. ARCHITECTURE ET PAGES
+- **Pages Statiques** : Générer les gabarits pour l'Accueil, Contact, et Mentions Légales/Politique d'Affiliation (avec la mention claire d'affiliation).
+- **Navigation (Header)** : Logo, Barre de Recherche, Menu Hamburger (sur mobile) listant les Catégories.
+- **Footer** : Liens essentiels (Accueil, Contact, Mentions Légales).
+
+III. STRUCTURE DE BLOG (TAXONOMIES)
+- **Gabarit de Catégorie :** Créer un gabarit pour afficher les listes d'articles, basé sur les taxonomies suivantes :
+    1. `cadeaux-par-personne`
+    2. `cadeaux-par-budget`
+    3. `cadeaux-originaux-et-difficiles`
+- **Gabarit d'Article de Blog :** Créer un gabarit optimisé pour la lecture, avec une zone pour les illustrations, des blocs CTA (boutons d'affiliation) et une zone pour les tableaux de comparaison.
+
+IV. IMPÉRATIFS SEO CRUCIAUX
+- **Balises Méta :** Remplir les balises `<title>` et `<meta name="description">` pour chaque gabarit avec des placeholders descriptifs contenant les mots-clés "Cadeaux de Noël", "Guide Cadeaux" et "[Votre Niche]".
+- **Hiérarchie de Titres :** Respecter la structure H1 unique par page, suivi d'une hiérarchie H2, H3, etc.
+- **Balises Images :** Toutes les images (placeholders inclus) DOIVENT avoir une balise `alt` descriptive (Ex: alt="Image festive idées cadeaux Noël").
+- **Schémas JSON-LD :** Intégrer le schéma **WebSite** (avec SearchAction) pour l'Accueil, et les schémas **Review** ou **Product** sur le gabarit d'article pour anticiper les Rich Snippets.
+
+**Le code doit être propre et le site doit être fonctionnel et visuellement attrayant dès la première génération.**
