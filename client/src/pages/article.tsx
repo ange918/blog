@@ -4,7 +4,7 @@ import { articles, categories } from "@/lib/data";
 import { useRoute, Link } from "wouter";
 import NotFound from "@/pages/not-found";
 import { Button } from "@/components/ui/button";
-import { Star, ExternalLink, Clock, User, Tag, ArrowLeft } from "lucide-react";
+import { Star, ExternalLink, Clock, User, Tag, ArrowLeft, Trophy } from "lucide-react";
 
 export default function ArticlePage() {
   const [match, params] = useRoute("/article/:slug");
@@ -16,6 +16,7 @@ export default function ArticlePage() {
   if (!article) return <NotFound />;
 
   const category = categories.find(c => c.slug === article.category);
+  const topPick = article.products && article.products.length > 0 ? article.products[0] : null;
 
   // Schema.org JSON-LD for BlogPosting/Product Review
   const jsonLd = {
@@ -93,6 +94,37 @@ export default function ArticlePage() {
         <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
           {/* Main Column */}
           <div className="lg:col-span-8 lg:col-start-3">
+            
+            {/* Top Pick Banner (High Priority CTA) */}
+            {topPick && (
+              <div className="bg-secondary/5 border-2 border-secondary/20 rounded-xl p-6 mb-12 flex flex-col sm:flex-row gap-6 items-center shadow-sm">
+                <div className="w-full sm:w-32 h-32 rounded-lg overflow-hidden bg-white flex-shrink-0">
+                  <img 
+                    src={topPick.image} 
+                    alt={topPick.name} 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex-1 text-center sm:text-left">
+                  <div className="flex items-center justify-center sm:justify-start gap-2 mb-2">
+                    <span className="bg-secondary text-white text-xs font-bold px-2 py-0.5 rounded uppercase tracking-wider flex items-center gap-1">
+                      <Trophy className="w-3 h-3" /> Notre Choix N°1
+                    </span>
+                    <div className="flex items-center text-secondary font-bold text-sm">
+                      {topPick.rating} <Star className="w-3 h-3 fill-secondary ml-1" />
+                    </div>
+                  </div>
+                  <h3 className="font-serif text-xl font-bold text-primary mb-1">{topPick.name}</h3>
+                  <p className="text-sm text-muted-foreground mb-4 line-clamp-2">{topPick.description}</p>
+                  <Button size="lg" className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-white font-bold rounded-full shadow-md hover:shadow-lg transition-all" asChild>
+                    <a href={topPick.affiliateLink} target="_blank" rel="nofollow noopener noreferrer">
+                      Voir l'offre - {topPick.price} <ExternalLink className="w-4 h-4 ml-2" />
+                    </a>
+                  </Button>
+                </div>
+              </div>
+            )}
+
             {/* Intro */}
             <div className="prose prose-lg prose-headings:font-serif prose-headings:text-primary prose-a:text-secondary max-w-none mb-12">
               <div dangerouslySetInnerHTML={{ __html: article.content }} />
