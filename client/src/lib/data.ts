@@ -3,6 +3,7 @@ import familyImage from "@assets/generated_images/family_opening_gifts.png";
 import budgetImage from "@assets/generated_images/budget_friendly_gifts_concept.png";
 import originalImage from "@assets/generated_images/unique_original_gifts_concept.png";
 import megaguideImage from "@assets/generated_images/festive_christmas_megaguide_banner.png";
+import guideUltimeImage from "@assets/generated_images/festive_composition_of_colorful_gifts.png";
 
 export interface Category {
   id: string;
@@ -55,6 +56,13 @@ export const categories: Category[] = [
     slug: "cadeaux-originaux-et-difficiles",
     image: originalImage,
     description: "Pour ceux qui ont déjà tout ou qui aiment l'insolite.",
+  },
+  {
+    id: "4",
+    title: "Guides Complets",
+    slug: "guides-complets",
+    image: guideUltimeImage,
+    description: "Nos dossiers exhaustifs pour ne jamais manquer d'inspiration.",
   },
 ];
 
@@ -305,6 +313,154 @@ export const articles: Article[] = [
         description: "Réveil par la lumière et l'odeur pour des matins doux.",
         affiliateLink: "#",
         rating: 4.7
+      }
+    ]
+  },
+  {
+    id: "5",
+    title: "Le Guide Ultime des Idées Cadeaux : Trouver le Présent Parfait pour Chaque Personne et Chaque Occasion",
+    slug: "guide-ultime-idees-cadeaux",
+    category: "guides-complets",
+    image: guideUltimeImage,
+    date: "26 Nov 2025",
+    author: "La Rédaction",
+    excerpt: "Découvrez notre sélection exhaustive d'idées cadeaux pour tous les budgets, toutes les personnalités et tous les événements. Ne cherchez plus, le cadeau idéal est ici !",
+    content: `
+      <p class="lead text-xl font-light mb-8">
+        Trouver le cadeau parfait est souvent un défi de taille. Nous avons tous connu cette angoisse de la page blanche à quelques jours d'un anniversaire ou de Noël. 
+        Mais ne vous inquiétez plus ! Nous avons rassemblé pour vous le guide le plus complet jamais créé pour ne plus jamais manquer d'inspiration. 
+        Que ce soit pour un proche, un collègue ou une connaissance, vous trouverez ici la pépite qui fera mouche.
+      </p>
+
+      <h2 class="font-serif text-3xl font-bold text-primary mt-12 mb-6 border-b pb-2 border-border">1. Idées Cadeaux par Personne</h2>
+      <p>Le point de départ classique : à qui offrez-vous ce cadeau ?</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+        <div>
+          <h3 class="font-bold text-xl text-secondary mb-2">Pour Lui</h3>
+          <ul class="list-disc pl-5 space-y-2 text-muted-foreground">
+            <li>Un kit de rasage à l'ancienne de luxe</li>
+            <li>Une montre connectée hybride élégante</li>
+            <li>Un abonnement à une box de vins ou bières artisanales</li>
+            <li>Un sac à dos en cuir vintage pour le travail</li>
+          </ul>
+          <div class="mt-4 font-medium text-primary">[#LIEN_AFFILIATION_MONTRE_HYBRIDE]</div>
+        </div>
+        <div>
+          <h3 class="font-bold text-xl text-secondary mb-2">Pour Elle</h3>
+          <ul class="list-disc pl-5 space-y-2 text-muted-foreground">
+            <li>Un bijou personnalisé avec une gravure discrète</li>
+            <li>Un coffret de soins de la peau bio haut de gamme</li>
+            <li>Un diffuseur d'huiles essentielles design en céramique</li>
+            <li>Un atelier créatif (poterie, fleurs, parfum)</li>
+          </ul>
+           <div class="mt-4 font-medium text-primary">[#LIEN_AFFILIATION_COFFRET_SOIN_BIO]</div>
+        </div>
+      </div>
+      
+      <img src="https://placehold.co/800x400/e2e8f0/1e293b?text=Illustration+Cadeaux+Famille" alt="Famille heureuse avec des cadeaux" class="w-full rounded-xl my-8 shadow-md" />
+
+      <h2 class="font-serif text-3xl font-bold text-primary mt-12 mb-6 border-b pb-2 border-border">2. Idées Cadeaux par Passion</h2>
+      <p>Cibler les passions est souvent la garantie d'un cadeau réussi.</p>
+
+      <h3 class="font-bold text-xl text-secondary mt-6 mb-3">Pour le Geek / Tech Lover</h3>
+      <p class="mb-4">Cherchez l'accessoire qui améliorera son setup ou sa vie quotidienne.</p>
+      <ul class="list-disc pl-5 mb-4 space-y-2 text-muted-foreground">
+        <li>Un clavier mécanique customisable</li>
+        <li>Des lunettes anti-lumière bleue stylées</li>
+        <li>Un support de casque en bois noble</li>
+      </ul>
+      <div class="mb-8 font-medium text-primary">[#LIEN_AFFILIATION_CLAVIER_MECANIQUE]</div>
+
+      <h3 class="font-bold text-xl text-secondary mt-6 mb-3">Pour le Voyageur</h3>
+      <p class="mb-4">Légèreté et praticité sont les maîtres mots.</p>
+      <ul class="list-disc pl-5 mb-4 space-y-2 text-muted-foreground">
+        <li>Un carnet de voyage en cuir rechargeable</li>
+        <li>Une batterie externe ultra-compacte haute capacité</li>
+        <li>Un pèse-bagage numérique précis</li>
+      </ul>
+      <div class="mb-8 font-medium text-primary">[#LIEN_AFFILIATION_CARNET_VOYAGE]</div>
+      
+      <div class="bg-secondary/10 p-6 rounded-xl my-8">
+        <h4 class="font-bold text-primary mb-2 flex items-center gap-2">
+           💡 Conseil d'Expert
+        </h4>
+        <p class="text-sm m-0">
+          Pour les passionnés, évitez le matériel "pro" très spécifique si vous ne vous y connaissez pas (ex: un objectif photo précis). 
+          Privilégiez plutôt les accessoires périphériques de qualité ou les consommables haut de gamme.
+        </p>
+      </div>
+
+      <h2 class="font-serif text-3xl font-bold text-primary mt-12 mb-6 border-b pb-2 border-border">3. Idées Cadeaux par Budget</h2>
+      <p>Pas besoin de dépenser des fortunes pour faire plaisir. L'attention compte plus que le prix.</p>
+
+      <div class="space-y-6 my-8">
+        <div class="bg-card border p-6 rounded-xl">
+          <h3 class="font-bold text-lg mb-2">Moins de 20€ (Petites attentions)</h3>
+          <p class="text-sm text-muted-foreground mb-2">Une jolie plante succulente dans un pot original, un livre de poche captivant, un set de chaussettes amusantes de qualité.</p>
+          <div class="font-medium text-primary text-xs">[#LIEN_AFFILIATION_PLANTE_DECO]</div>
+        </div>
+        <div class="bg-card border p-6 rounded-xl">
+          <h3 class="font-bold text-lg mb-2">Moins de 50€ (Cadeaux sympas)</h3>
+          <p class="text-sm text-muted-foreground mb-2">Un jeu de société d'ambiance, une bonne bouteille de spiritueux, un beau livre d'art (Coffee Table Book).</p>
+          <div class="font-medium text-primary text-xs">[#LIEN_AFFILIATION_JEU_SOCIETE]</div>
+        </div>
+        <div class="bg-card border p-6 rounded-xl">
+          <h3 class="font-bold text-lg mb-2">Budget Illimité (Luxe & Exception)</h3>
+          <p class="text-sm text-muted-foreground mb-2">Un sac de créateur, une pièce d'horlogerie fine, un voyage surprise organisé.</p>
+        </div>
+      </div>
+
+      <img src="https://placehold.co/800x400/e2e8f0/1e293b?text=Illustration+Budget+Cadeaux" alt="Assortiment de cadeaux de différentes tailles" class="w-full rounded-xl my-8 shadow-md" />
+
+      <h2 class="font-serif text-3xl font-bold text-primary mt-12 mb-6 border-b pb-2 border-border">4. Conseils pour Sublimer votre Cadeau</h2>
+      <p>L'emballage et la présentation font 50% du cadeau !</p>
+      <ul class="list-decimal pl-5 space-y-4 text-muted-foreground my-6">
+        <li>
+          <strong>L'art du Furoshiki :</strong> Emballez vos cadeaux dans un joli tissu réutilisable. C'est écologique, élégant et original.
+        </li>
+        <li>
+          <strong>La carte manuscrite :</strong> Ne négligez jamais le petit mot. Prenez le temps d'écrire pourquoi vous avez choisi ce cadeau pour cette personne.
+        </li>
+        <li>
+          <strong>Le "Teasing" :</strong> Si vous offrez une expérience (billet de concert, voyage) qui tient dans une enveloppe, essayez de l'accompagner d'un petit objet physique en rapport pour avoir quelque chose à "déballer" (ex: un guide de voyage pour un billet d'avion).
+        </li>
+      </ul>
+
+      <div class="bg-primary text-primary-foreground p-8 rounded-2xl text-center mt-12">
+        <h3 class="font-serif text-2xl font-bold mb-4">Besoin de plus d'idées ?</h3>
+        <p class="mb-6 opacity-90">
+          Explorez nos catégories spécifiques pour trouver exactement ce qu'il vous faut.
+        </p>
+        <a href="/categorie/cadeaux-originaux-et-difficiles" class="inline-block bg-secondary hover:bg-secondary/90 text-white font-bold py-3 px-8 rounded-full transition-colors">
+          Voir les cadeaux originaux
+        </a>
+      </div>
+    `,
+    products: [
+      {
+        name: "Montre Hybride Élégante",
+        price: "189,00 €",
+        image: "https://placehold.co/300x300/e2e8f0/1e293b?text=Watch",
+        description: "Le look d'une montre classique, les fonctions d'une smartwatch.",
+        affiliateLink: "#",
+        rating: 4.6
+      },
+      {
+        name: "Coffret Soin Bio Luxe",
+        price: "65,00 €",
+        image: "https://placehold.co/300x300/e2e8f0/1e293b?text=Skincare",
+        description: "Produits naturels et certifiés pour une peau éclatante.",
+        affiliateLink: "#",
+        rating: 4.8
+      },
+      {
+        name: "Clavier Mécanique Custom",
+        price: "120,00 €",
+        image: "https://placehold.co/300x300/e2e8f0/1e293b?text=Keyboard",
+        description: "Frappe parfaite et rétro-éclairage subtil pour le bureau.",
+        affiliateLink: "#",
+        rating: 4.9
       }
     ]
   }

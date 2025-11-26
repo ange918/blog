@@ -1,0 +1,27 @@
+**Tâche :** Ajouter un article pilier très détaillé et riche en contenu au projet statique HTML/CSS/JS.
+
+**Instructions :**
+1.  **Mise à Jour des Données JS (`script.js`) :**
+    * Ajoutez un **nouvel objet article** au tableau de données d'articles dans `script.js`.
+    * Cet article sera l'**Article Pilier**.
+    * **Titre :** "Le Guide Ultime des Idées Cadeaux : Trouver le Présent Parfait pour Chaque Personne et Chaque Occasion"
+    * **Slug :** "guide-ultime-idees-cadeaux"
+    * **Catégorie :** "Guides Complets" (ajoutez cette catégorie si elle n'existe pas dans le menu de navigation).
+    * **Image de Couverture :** Utilisez une image placeholder générée et pertinente (ex: "Une composition festive de plusieurs cadeaux colorés et joliment emballés").
+    * **Description Courte :** "Découvrez notre sélection exhaustive d'idées cadeaux pour tous les budgets, toutes les personnalités et tous les événements. Ne cherchez plus, le cadeau idéal est ici !"
+    * **`contenuComplet` (le plus important) :** Générez un **texte très long et détaillé** pour cet article pilier. Ce contenu doit être structuré avec des balises HTML (`<h2>`, `<h3>`, `<p>`, `<ul>`, `<ol>`).
+        * **Introduction :** Accrocheuse, expliquant l'importance de trouver le bon cadeau.
+        * **Sections Principales (`<h2>`) :**
+            * Idées Cadeaux par Personne (Pour Lui, Pour Elle, Parents, Enfants, Ados)
+            * Idées Cadeaux par Intérêt/Passion (Geek, Cuisinier, Voyageur, Sportif, Artiste, Écolo)
+            * Idées Cadeaux par Budget (Moins de 20€, 50€, 100€+, Luxe)
+            * Idées Cadeaux par Événement (Noël, Anniversaire, Saint-Valentin, Fête des Mères/Pères)
+        * **Dans chaque section `<h2>` :** Ajoutez des sous-sections `<h3>` avec des suggestions concrètes.
+        * **Valeur Ajoutée (Conseils) :** Intégrez des conseils pratiques (comment bien emballer, comment ajouter une touche personnelle, l'importance de l'expérience, etc.).
+        * **Illustrations (Description Texte) :** Pour chaque section principale (`<h2>`), insérez une ligne comme `` (ex: "Illustration générée : Un assortiment d'accessoires de cuisine haut de gamme et ustensiles").
+        * **Placeholders de Liens d'Affiliation :** À la fin de chaque suggestion de cadeau ou de section, insérez un placeholder clair : `[#LIEN_AFFILIATION_NOM_PRODUIT_X]`
+        * **Conclusion :** Un appel à l'action invitant à explorer plus d'idées ou à laisser un commentaire.
+2.  **Mise à Jour de l'Affichage de la Page d'Article (`article.html`) :**
+    * Assurez-vous que la page `article.html` est capable d'afficher ce `contenuComplet` très long et structuré de manière lisible et élégante.
+
+**Objectif :** Disposer d'un article pilier de haute qualité avec un contenu substantiel, des illustrations descriptives (à générer), et des emplacements clairs pour les futurs liens d'affiliation.
