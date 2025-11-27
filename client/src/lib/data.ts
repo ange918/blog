@@ -11,13 +11,14 @@ import necklaceImage from "@assets/stock_images/silver_necklace_pend_31e98211.jp
 import airfryerImage from "@assets/stock_images/air_fryer_modern_kit_60764536.jpg";
 import candleImage from "@assets/stock_images/yankee_candle_christ_f42473e3.jpg";
 import menHeroImage from "@assets/stock_images/christmas_gifts_for__0de6d38a.jpg";
-import ssdImage from "@assets/stock_images/portable_ssd_drive_s_a78fe442.jpg";
+// import ssdImage from "@assets/stock_images/portable_ssd_drive_s_a78fe442.jpg";
 // import projectorImage from "@assets/stock_images/portable_video_proje_a627e572.jpg";
 // import legoImage from "@assets/stock_images/lego_architecture_tr_109f9f63.jpg";
 // import watchImage from "@assets/stock_images/smartwatch_fitness_t_732b2995.jpg";
 // import dispenserImage from "@assets/stock_images/beer_dispenser_tower_314ab7a7.jpg";
 
 // Real user images
+import ssdImage from "@assets/IMG_7417_1764241218182.jpeg";
 import projectorImage from "@assets/IMG_7419_1764241084450.jpeg";
 import legoImage from "@assets/IMG_7420_1764241084450.jpeg";
 import watchImage from "@assets/IMG_7421_1764241084450.jpeg";
