@@ -10,6 +10,12 @@ import koboImage from "@assets/stock_images/e-reader_color_scree_17253094.jpg";
 import necklaceImage from "@assets/stock_images/silver_necklace_pend_31e98211.jpg";
 import airfryerImage from "@assets/stock_images/air_fryer_modern_kit_60764536.jpg";
 import candleImage from "@assets/stock_images/yankee_candle_christ_f42473e3.jpg";
+import menHeroImage from "@assets/stock_images/christmas_gifts_for__0de6d38a.jpg";
+import ssdImage from "@assets/stock_images/portable_ssd_drive_s_a78fe442.jpg";
+import projectorImage from "@assets/stock_images/portable_video_proje_a627e572.jpg";
+import legoImage from "@assets/stock_images/lego_architecture_tr_109f9f63.jpg";
+import watchImage from "@assets/stock_images/smartwatch_fitness_t_732b2995.jpg";
+import dispenserImage from "@assets/stock_images/beer_dispenser_tower_314ab7a7.jpg";
 
 export interface Category {
   id: string;
@@ -77,9 +83,153 @@ export const categories: Category[] = [
     image: xmasHeroImage,
     description: "Une sélection raffinée pour elle.",
   },
+  {
+    id: "6",
+    title: "Noël Homme",
+    slug: "noel-homme",
+    image: menHeroImage,
+    description: "Des idées cadeaux pour lui qui sortent de l'ordinaire.",
+  },
 ];
 
 export const articles: Article[] = [
+  {
+    id: "7",
+    title: "Idées Cadeaux de Noël pour Homme : Le Top 5 High-Tech, Sport, et Plaisir (Guide 2025)",
+    slug: "meilleures-idees-cadeaux-noel-homme-2025",
+    category: "noel-homme",
+    image: menHeroImage,
+    date: "28 Nov 2025",
+    author: "Thomas Durand",
+    excerpt: "Découvrez notre sélection des 5 cadeaux les plus pertinents pour l'homme en 2025 : du SSD ultra-rapide au vidéoprojecteur nomade, en passant par le set LEGO collector.",
+    content: `
+      <h2 id="intro">Introduction</h2>
+      <p>Trouver un cadeau pour un homme est souvent résumé à une paire de chaussettes ou une bouteille de vin. Pourtant, en 2025, les options pour faire vraiment plaisir sont légion. Que ce soit pour un amateur de tech, un fan de cinéma, ou quelqu'un qui aime recevoir ses amis, nous avons déniché 5 pépites qui feront mouche à coup sûr.</p>
+
+      <div class="bg-muted/50 p-6 rounded-xl border border-border my-8">
+        <h3 class="text-xl font-bold mb-4 mt-0">Dans ce guide :</h3>
+        <ul class="list-none pl-0 space-y-2">
+          <li><a href="#idee-1" class="flex items-center gap-2"><span class="text-secondary">01.</span> Le Cerveau de la Création (SSD Samsung)</a></li>
+          <li><a href="#idee-2" class="flex items-center gap-2"><span class="text-secondary">02.</span> Le Home Cinéma Nomade (Vidéoprojecteur WOLFANG)</a></li>
+          <li><a href="#idee-3" class="flex items-center gap-2"><span class="text-secondary">03.</span> Le Loisir de Luxe (LEGO Architecture)</a></li>
+          <li><a href="#idee-4" class="flex items-center gap-2"><span class="text-secondary">04.</span> Le Coach au Poignet (Xiaomi Redmi Watch)</a></li>
+          <li><a href="#idee-5" class="flex items-center gap-2"><span class="text-secondary">05.</span> L'Âme de la Fête (Distributeur InnovaGoods)</a></li>
+        </ul>
+      </div>
+
+      <h2 id="idee-1">💻 Idée 1 : Le Cerveau de la Création (Samsung SSD T7 2 To)</h2>
+      
+      <h3>Pourquoi c'est un must-have</h3>
+      <p>À l'ère du numérique, le stockage est le nerf de la guerre. Le Samsung T7 n'est pas juste un disque dur, c'est un bolide. Avec des vitesses de transfert atteignant 1050 Mo/s, il permet de copier des films 4K ou des dossiers de jeux en quelques secondes. Sa coque en aluminium est à la fois élégante, dissipatrice de chaleur et ultra-compacte (format carte de crédit).</p>
+
+      <h3>Ce qu'il faut savoir</h3>
+      <p>Le seul petit défaut réside dans le logiciel de sécurisation intégré qui peut parfois être capricieux à installer sur certains vieux systèmes. Mais rassurez-vous : il est totalement facultatif. L'appareil fonctionne parfaitement en "Plug and Play" dès la sortie de la boîte sans rien installer.</p>
+      
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/43XfSdA" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir le Samsung SSD T7 sur Amazon
+        </a>
+      </div>
+
+      <h2 id="idee-2">📽️ Idée 2 : Le Home Cinéma Nomade (Vidéoprojecteur WOLFANG 4K)</h2>
+
+      <h3>Le Cinéma partout avec soi</h3>
+      <p>Imaginez pouvoir projeter un film au plafond de la chambre, ou sur un mur blanc en vacances. Ce vidéoprojecteur WOLFANG supporte la 4K et offre une rotation à 180° très pratique. Il intègre Android TV, ce qui signifie que Netflix et YouTube sont directement accessibles sans brancher d'ordinateur.</p>
+
+      <h3>Désamorçage du point faible</h3>
+      <p>Comme pour beaucoup de projecteurs compacts, le son interne est correct pour du dépannage mais manque de basses pour une immersion totale. La solution est simple : il se connecte en Bluetooth à n'importe quelle enceinte portable ou barre de son en un clic.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3Kn2Cbv" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Découvrir le Vidéoprojecteur WOLFANG
+        </a>
+      </div>
+
+      <h2 id="idee-3">🧱 Idée 3 : Le Loisir de Luxe (LEGO Architecture La fontaine de Trevi)</h2>
+
+      <h3>Plus qu'un jouet, une pièce de décoration</h3>
+      <p>Les LEGO ne sont plus réservés aux enfants. La gamme Architecture s'adresse aux adultes cherchant un moment de détente créative. Ce modèle de la Fontaine de Trevi est magnifique une fois assemblé. Avec ses détails architecturaux précis, c'est un objet que l'on est fier d'exposer sur une étagère ou un bureau.</p>
+
+      <h3>Pourquoi le prix est justifié</h3>
+      <p>Certains peuvent trouver le prix élevé pour "des briques". Mais c'est la qualité LEGO : pas de pièces manquantes, un emboîtement parfait, et une valeur de collection qui ne baisse pas. Sa taille compacte est en réalité un atout : elle permet de l'exposer facilement sans envahir l'espace.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/48mDnOy" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Offrir le LEGO Fontaine de Trevi
+        </a>
+      </div>
+
+      <h2 id="idee-4">⌚ Idée 4 : Le Coach au Poignet (Xiaomi Redmi Watch 5 Active)</h2>
+
+      <h3>Technologie abordable et performante</h3>
+      <p>Pas besoin de dépenser 400€ pour une bonne smartwatch. La Redmi Watch 5 Active impressionne avec ses 18 jours d'autonomie (oui, vous avez bien lu). Elle suit plus de 140 sports, le sommeil, le stress, et permet même de passer des appels via Bluetooth directement au poignet.</p>
+
+      <h3>Petit bémol, solution simple</h3>
+      <p>Le système d'attache du bracelet fourni peut sembler un peu léger pour les sports extrêmes. Heureusement, c'est un standard universel : pour quelques euros, vous pouvez lui offrir un bracelet en nylon ou en cuir qui la rendra encore plus classe et sécurisée.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3LVAMng" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir la Redmi Watch 5 Active
+        </a>
+      </div>
+
+      <h2 id="idee-5">🍻 Idée 5 : L'Âme de la Fête (Distributeur InnovaGoods 3,5L)</h2>
+
+      <h3>Pour les rois de l'apéro</h3>
+      <p>C'est l'accessoire qui transforme un simple apéro en fête. Ce distributeur sphérique de 3,5L possède un compartiment à glace central fermé : il refroidit la boisson sans la diluer avec de l'eau fondue ! Idéal pour la bière, mais aussi pour les punchs, les sangrias ou les thés glacés maison.</p>
+
+      <h3>Honnêteté avant tout</h3>
+      <p>Attention, ce n'est pas une tireuse à bière sous pression (Beertender). Il n'y a pas de système de gaz. C'est un distributeur par gravité. C'est donc parfait pour les soirées conviviales où chacun se sert, sans la complexité technique d'une machine professionnelle.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/48jPyf3" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Acheter le Distributeur InnovaGoods
+        </a>
+      </div>
+    `,
+    products: [
+      {
+        name: "Samsung SSD T7 2 To",
+        price: "Voir prix",
+        image: ssdImage,
+        description: "SSD Portable ultra-rapide, compact et résistant.",
+        affiliateLink: "https://amzn.to/43XfSdA",
+        rating: 4.8
+      },
+      {
+        name: "Vidéoprojecteur WOLFANG 4K",
+        price: "Voir prix",
+        image: projectorImage,
+        description: "Projecteur portable rotatif avec Android TV intégré.",
+        affiliateLink: "https://amzn.to/3Kn2Cbv",
+        rating: 4.5
+      },
+      {
+        name: "LEGO Architecture Trevi",
+        price: "Voir prix",
+        image: legoImage,
+        description: "Set de construction détaillé pour adultes.",
+        affiliateLink: "https://amzn.to/48mDnOy",
+        rating: 4.9
+      },
+      {
+        name: "Xiaomi Redmi Watch 5",
+        price: "Voir prix",
+        image: watchImage,
+        description: "Smartwatch autonomie 18 jours avec appels Bluetooth.",
+        affiliateLink: "https://amzn.to/3LVAMng",
+        rating: 4.7
+      },
+      {
+        name: "Distributeur InnovaGoods",
+        price: "Voir prix",
+        image: dispenserImage,
+        description: "Distributeur de boissons 3,5L avec réservoir à glace.",
+        affiliateLink: "https://amzn.to/48jPyf3",
+        rating: 4.6
+      }
+    ]
+  },
   {
     id: "6",
     title: "Idées Cadeaux de Noël pour Femme : Le Guide 2025 des 5 Meilleurs Présents",

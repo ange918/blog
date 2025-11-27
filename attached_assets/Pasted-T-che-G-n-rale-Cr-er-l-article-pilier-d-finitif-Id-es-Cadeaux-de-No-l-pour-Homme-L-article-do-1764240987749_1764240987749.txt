@@ -1,0 +1,43 @@
+Tâche Générale :** Créer l'article pilier définitif "Idées Cadeaux de Noël pour Homme". L'article doit être long, concis, structuré pour le SEO, inclure un Sommaire fonctionnel en tête, et intégrer l'analyse détaillée des cinq produits fournis.
+
+**Instructions de Modification (dans `script.js`):**
+
+1.  **Ciblage :** Créez un **nouvel objet article** (ou écrasez un placeholder).
+2.  **Métadonnées :**
+    * **Titre (H1) :** "Idées Cadeaux de Noël pour Homme : Le Top 5 High-Tech, Sport, et Plaisir (Guide 2025)"
+    * **Catégorie :** "Noël Homme"
+    * **Slug :** "meilleures-idees-cadeaux-noel-homme-2025"
+    * **Description Courte :** "Découvrez notre sélection des 5 cadeaux les plus pertinents pour l'homme en 2025 : du SSD ultra-rapide au vidéoprojecteur nomade, en passant par le set LEGO collector."
+
+3.  **`contenuComplet` (Le corps de l'article) :** Générez le contenu long en HTML. **LE SOMMAIRE DOIT ÊTRE INSÉRÉ IMMÉDIATEMENT APRÈS L'INTRODUCTION.**
+
+    * **H2 - Introduction & Lancement du Sommaire :** Accroche générale et présentation de la Table des Matières (Sommaire).
+    * **[Insérer le Sommaire ici, listant les 5 H2 qui suivent avec des liens d'ancrage fonctionnels (#).]**
+
+    * **H2 - 💻 Idée 1 : Le Cerveau de la Création (Samsung SSD T7 2 To)**
+        * Analyse détaillée des points forts (vitesse, compacité).
+        * **Désamorçage du point faible :** Expliquer que le logiciel intégré est le seul défaut, mais que l'appareil fonctionne parfaitement sans, en "Plug and Play".
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/43XfSdA et rel="sponsored"]**
+
+    * **H2 - 📽️ Idée 2 : Le Home Cinéma Nomade (Vidéoprojecteur WOLFANG 4K)**
+        * Analyse détaillée des points forts (Netflix intégré, 4K, 180°).
+        * **Désamorçage du point faible :** Aborder la faible qualité sonore en interne et proposer la solution facile de la connexion à une enceinte Bluetooth.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/3Kn2Cbv et rel="sponsored"]**
+
+    * **H2 - 🧱 Idée 3 : Le Loisir de Luxe (LEGO Architecture La fontaine de Trevi)**
+        * Analyse détaillée des points forts (détente, décoration, 1880 pièces).
+        * **Désamorçage du point faible :** Justifier le prix par la qualité LEGO et la valeur décorative, et transformer la petite taille en un avantage pour l'exposition.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/48mDnOy et rel="sponsored"]**
+
+    * **H2 - ⌚ Idée 4 : Le Coach au Poignet (Xiaomi Redmi Watch 5 Active)**
+        * Analyse détaillée des points forts (18j d'autonomie, 140 modes, appels Bluetooth).
+        * **Désamorçage du point faible :** Aborder le problème de l'attache peu solide en proposant le remplacement facile du bracelet, et insister sur la valeur globale du produit.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/3LVAMng et rel="sponsored"]**
+
+    * **H2 - 🍻 Idée 5 : L'Âme de la Fête (Distributeur InnovaGoods 3,5L)**
+        * Analyse détaillée des points forts (refroidissement sans dilution, design).
+        * **Désamorçage du point faible :** Faire preuve d'honnêteté en précisant que ce n'est pas une tireuse à bière, mais le parfait distributeur de punch, jus et cocktails pour un barbecue réussi.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/48jPyf3 et rel="sponsored"]**
+
+4.  **Formatage & Visuels :** Confirmer l'application des règles CSS d'espacement et s'assurer que le Sommaire est bien stylisé.
+
