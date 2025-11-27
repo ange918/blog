@@ -4,6 +4,12 @@ import budgetImage from "@assets/generated_images/budget_friendly_gifts_concept.
 import originalImage from "@assets/generated_images/unique_original_gifts_concept.png";
 import megaguideImage from "@assets/generated_images/festive_christmas_megaguide_banner.png";
 import guideUltimeImage from "@assets/generated_images/festive_composition_of_colorful_gifts.png";
+import xmasHeroImage from "@assets/stock_images/christmas_gifts_for__27f49b2f.jpg";
+import diffuserImage from "@assets/stock_images/essential_oil_diffus_b69e2387.jpg";
+import koboImage from "@assets/stock_images/e-reader_color_scree_17253094.jpg";
+import necklaceImage from "@assets/stock_images/silver_necklace_pend_31e98211.jpg";
+import airfryerImage from "@assets/stock_images/air_fryer_modern_kit_60764536.jpg";
+import candleImage from "@assets/stock_images/yankee_candle_christ_f42473e3.jpg";
 
 export interface Category {
   id: string;
@@ -64,9 +70,146 @@ export const categories: Category[] = [
     image: guideUltimeImage,
     description: "Nos dossiers exhaustifs pour ne jamais manquer d'inspiration.",
   },
+  {
+    id: "5",
+    title: "Noël Femme",
+    slug: "noel-femme",
+    image: xmasHeroImage,
+    description: "Une sélection raffinée pour elle.",
+  },
 ];
 
 export const articles: Article[] = [
+  {
+    id: "6",
+    title: "Idées Cadeaux de Noël pour Femme : Le Guide 2025 des 5 Meilleurs Présents",
+    slug: "meilleures-idees-cadeaux-noel-femme-2025",
+    category: "noel-femme",
+    image: xmasHeroImage,
+    date: "27 Nov 2025",
+    author: "Sophie Martin",
+    excerpt: "Arrêtez de chercher ! Voici les 5 cadeaux incontournables pour femme en 2025, analysés en détail : du collier personnalisé à la liseuse Kobo couleur, en passant par l'Air Fryer gain de temps.",
+    content: `
+      <h2 id="intro">Le secret pour un cadeau réussi</h2>
+      <p>Trouver le cadeau parfait pour une femme – que ce soit votre compagne, votre mère, votre sœur ou votre meilleure amie – peut parfois ressembler à un parcours du combattant. On veut éviter le banal, mais on a peur de l'originalité mal placée. Le secret ? L'intention. En 2025, plus que jamais, le cadeau réussi est celui qui dit "Je te connais" et "Je veux ton bien-être". C'est pourquoi nous avons sélectionné 5 idées qui touchent à l'émotion, au confort et à la passion.</p>
+
+      <h2 id="idee-1">🎁 Idée N°1 : L'Évasion & La Détente (Diffuseur Zen’Arôme Yangtsé)</h2>
+      
+      <h3>Pourquoi l'offrir : Le Silence et le Design</h3>
+      <p>Dans un monde bruyant et stressant, offrir du calme est le plus beau des présents. Le diffuseur Zen’Arôme Yangtsé n'est pas qu'un simple appareil fonctionnel, c'est un objet de décoration élégant qui transforme l'atmosphère d'une pièce. Son atout majeur ? Son silence absolu. Contrairement à beaucoup de modèles qui bourdonnent, celui-ci utilise une technologie ultrasonique discrète qui respecte la quiétude d'une séance de lecture ou de méditation.</p>
+
+      <h3>Conseil d'Expert : L'entretien facile</h3>
+      <p>On hésite souvent avec les diffuseurs par peur que l'odeur de la précédente huile essentielle ne persiste, ou que le plastique ne s'imprègne. Pas d'inquiétude ici. Une petite astuce de pro : un nettoyage mensuel avec un mélange d'eau et de vinaigre blanc (ou un peu de bicarbonate) suffit à le remettre à neuf et à garantir une diffusion pure, sans mélange d'arômes indésirables. C'est un cadeau qui dure.</p>
+      
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4pxS08E" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir le Diffuseur Zen’Arôme sur Amazon
+        </a>
+      </div>
+
+      <h2 id="idee-2">📚 Idée N°2 : Le Voyage High-Tech (Liseuse Kobo Clara Colour)</h2>
+
+      <h3>Les Avantages de la Couleur E Ink</h3>
+      <p>La lecture numérique fait un bond en avant avec la Kobo Clara Colour. Pourquoi est-ce un "game changer" ? Parce que les couvertures de livres, les illustrations et les bandes dessinées prennent vie sans l'agression lumineuse d'une tablette classique. L'écran E Ink Kaleido™ 3 offre des couleurs douces et pastel qui ne fatiguent pas les yeux. Ajoutez à cela le mode sombre pour lire au lit sans réveiller l'autre, une étanchéité totale (parfaite pour le bain !) et une batterie qui dure des semaines, et vous avez le compagnon de voyage idéal.</p>
+
+      <h3>Ce qu'il faut savoir avant d'acheter</h3>
+      <p>Soyons transparents : l'écran couleur est légèrement plus sombre qu'un écran noir et blanc classique, nécessitant parfois d'activer un peu plus le rétroéclairage. De plus, l'écran ne pivote pas automatiquement. Mais honnêtement ? C'est un prix dérisoire à payer pour le confort d'avoir toute sa bibliothèque en couleur dans un format poche ultra-léger.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3KsBRlX" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Découvrir la Kobo Clara Colour
+        </a>
+      </div>
+
+      <h2 id="idee-3">✨ Idée N°3 : Le Cadeau du Cœur (Collier Morella Argent 925 Rhodié)</h2>
+
+      <h3>La Valeur de l'émotion</h3>
+      <p>Les bijoux restent des classiques, mais la personnalisation change tout. Ce collier Morella permet d'ajouter des lettres (initiales des enfants, du couple, ou d'un mot fort). Ce n'est pas du toc : on parle d'Argent 925 Rhodié, ce qui signifie qu'il est protégé contre l'oxydation et garde son éclat. Il arrive dans une jolie pochette en velours, prêt à être glissé sous le sapin, ce qui vous sauve l'étape toujours délicate de l'emballage cadeau !</p>
+
+      <h3>Transparence sur la "fragilité"</h3>
+      <p>Certains avis peuvent mentionner une certaine fragilité. Il est important de remettre les choses dans leur contexte : c'est un bijou <em>fin</em> et <em>délicat</em>. Ce n'est pas un défaut de qualité, mais une caractéristique de son design raffiné. Il se porte avec élégance et se traite avec douceur. C'est justement cette finesse qui le rend si joli au cou.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/48hnnxc" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Personnaliser le Collier Morella
+        </a>
+      </div>
+
+      <h2 id="idee-4">🍳 Idée N°4 : L'Allié Santé et Pratique (Friteuse Cecotec DuoLevel 10000)</h2>
+
+      <h3>L'Air Fryer pour les familles</h3>
+      <p>Ne voyez pas cela comme un simple appareil de cuisine, mais comme un <em>générateur de temps libre</em>. Avec sa capacité énorme de 10L (divisible en deux zones de 5L), la Cecotec DuoLevel permet de cuire le plat principal ET l'accompagnement en même temps. La fonction Sync est magique : elle s'assure que les frites et le poulet finissent de cuire exactement au même moment. Plus de jonglage avec les temps de cuisson ! Son design vertical est aussi très malin pour ne pas encombrer tout le plan de travail.</p>
+
+      <h3>Faciliter la prise en main</h3>
+      <p>Le petit bémol souvent cité est l'absence de livre de recettes papier en français complet. Cependant, ne vous laissez pas arrêter par cela. La communauté Air Fryer est immense en ligne, et Cecotec propose des recettes téléchargeables. C'est l'occasion de rejoindre des groupes de partage et de découvrir une nouvelle façon de cuisiner, plus saine et plus rapide.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/44qVhyl" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir l'offre Cecotec DuoLevel
+        </a>
+      </div>
+
+      <h2 id="idee-5">🕯️ Idée N°5 : Le Plaisir à Petit Prix (Coffret Yankee Candle de Noël)</h2>
+
+      <h3>Un cadeau pour l'Ambiance</h3>
+      <p>Si vous avez un petit budget mais que vous voulez faire grand effet, ce coffret est la solution. Yankee Candle est la référence absolue de la bougie parfumée. Ce coffret de Noël propose des cires de soja de qualité supérieure avec des mèches en coton 100% naturel. Les senteurs sont évocatrices et créent immédiatement une ambiance festive et chaleureuse (Cannelle, Sapin, Cookie...). La présentation est soignée, on a vraiment l'impression d'offrir un beau cadeau.</p>
+
+      <h3>La Taille n'est pas tout</h3>
+      <p>Attention, ce sont des bougies votives (petites). Certains peuvent être surpris par la taille. Mais voyez-le comme un avantage : c'est un coffret dégustation ! Plutôt qu'une seule grosse bougie dont on se lasse, c'est l'opportunité de tester 3 ou 6 parfums différents sans gaspillage. C'est parfait pour changer d'ambiance selon l'humeur du jour.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4pE9xw1" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Offrir le Coffret Yankee Candle
+        </a>
+      </div>
+
+      <h2 id="conclusion">Résumé et Dernier Appel à l'Action</h2>
+      <p>Vous l'aurez compris, il n'y a pas de "meilleur" cadeau dans l'absolu, mais il y a le cadeau parfait pour <em>elle</em>. Que vous choisissiez la sérénité du diffuseur, l'évasion de la liseuse, l'émotion du bijou, la praticité de l'Air Fryer ou la douceur des bougies, vous avez là 5 valeurs sûres.</p>
+      <p class="font-bold text-lg mt-4">N'attendez pas la rupture de stock de dernière minute ! Cliquez sur le lien de votre coup de cœur et rayez ce cadeau de votre liste dès aujourd'hui.</p>
+    `,
+    products: [
+      {
+        name: "Diffuseur Zen’Arôme Yangtsé",
+        price: "Voir prix",
+        image: diffuserImage,
+        description: "Diffuseur ultrasonique silencieux au design élégant.",
+        affiliateLink: "https://amzn.to/4pxS08E",
+        rating: 4.7
+      },
+      {
+        name: "Kobo Clara Colour",
+        price: "Voir prix",
+        image: koboImage,
+        description: "Liseuse couleur étanche avec écran E Ink Kaleido 3.",
+        affiliateLink: "https://amzn.to/3KsBRlX",
+        rating: 4.5
+      },
+      {
+        name: "Collier Morella Argent",
+        price: "Voir prix",
+        image: necklaceImage,
+        description: "Collier personnalisable en argent 925 rhodié.",
+        affiliateLink: "https://amzn.to/48hnnxc",
+        rating: 4.6
+      },
+      {
+        name: "Cecotec DuoLevel 10000",
+        price: "Voir prix",
+        image: airfryerImage,
+        description: "Air Fryer double compartiment 10L avec fonction Sync.",
+        affiliateLink: "https://amzn.to/44qVhyl",
+        rating: 4.8
+      },
+      {
+        name: "Coffret Yankee Candle",
+        price: "Voir prix",
+        image: candleImage,
+        description: "Assortiment de bougies votives aux senteurs de Noël.",
+        affiliateLink: "https://amzn.to/4pE9xw1",
+        rating: 4.9
+      }
+    ]
+  },
   {
     id: "1",
     title: "Les 10 Meilleurs Cadeaux pour Maman en 2025",

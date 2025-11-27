@@ -1,0 +1,42 @@
+Tâche Générale :** Créer un article pilier unique, extrêmement détaillé et structuré (Guide 2025) pour les Idées Cadeaux de Noël pour Femme. Cet article doit intégrer l'analyse complète des cinq produits fournis, avec leurs liens d'affiliation et une rédaction persuasive.
+
+**Instructions de Modification (dans `script.js`):**
+
+1.  **Ciblage :** Créez un **nouvel objet article** dans le tableau de données JavaScript (ou écrasez un placeholder existant).
+2.  **Métadonnées :**
+    * **Titre (H1) :** "Idées Cadeaux de Noël pour Femme : Le Guide 2025 des 5 Meilleurs Présents (Émotionnel, Tech, Bien-être & Petit Budget)"
+    * **Catégorie :** "Noël Femme"
+    * **Slug :** "meilleures-idees-cadeaux-noel-femme-2025"
+    * **Description Courte :** "Arrêtez de chercher ! Voici les 5 cadeaux incontournables pour femme en 2025, analysés en détail : du collier personnalisé à la liseuse Kobo couleur, en passant par l'Air Fryer gain de temps."
+
+3.  **`contenuComplet` (Le corps de l'article) :** Générez le contenu long et structuré en HTML (`<h2>`, `<h3>`, `<p>`, `<ul>`) en respectant la hiérarchie pour chaque produit. La rédaction doit être persuasive et transparente :
+
+    * **H2 - Introduction (Le secret pour un cadeau réussi) :** Accroche généraliste sur la difficulté de trouver le cadeau parfait et l'importance de l'intention.
+    * **H2 - 🎁 Idée N°1 : L'Évasion & La Détente (Diffuseur Zen’Arôme Yangtsé)**
+        * **H3 : Pourquoi l'offrir :** Mettre l'accent sur le silence et le design élégant.
+        * **H3 : Conseil d'Expert :** Aborder le point faible de l'odeur rémanente du plastique et donner la solution de nettoyage au bicarbonate/vinaigre pour rassurer le lecteur.
+        * **[Insérer un CTA avec le lien d'affiliation : https://amzn.to/4pxS08E et rel="sponsored"]**
+    * **H2 - 📚 Idée N°2 : Le Voyage High-Tech (Liseuse Kobo Clara Colour)**
+        * **H3 : Les Avantages de la Couleur E Ink :** Mettre l'accent sur l'écran couleur sans reflets, le mode sombre, l'étanchéité et l'autonomie de la batterie (semaines).
+        * **H3 : Ce qu'il faut savoir avant d'acheter :** Aborder le point faible de la sensibilité et de la non-rotation de l'écran (défauts mineurs pour un gain de praticité énorme).
+        * **[Insérer un CTA avec le lien d'affiliation : https://amzn.to/3KsBRlX et rel="sponsored"]**
+    * **H2 - ✨ Idée N°3 : Le Cadeau du Cœur (Collier Morella Argent 925 Rhodié)**
+        * **H3 : La Valeur de l'émotion :** Mettre en avant le côté personnalisé (lettres), l'argent 925 rhodié et la livraison en pochette velours (prêt à offrir).
+        * **H3 : Transparence :** Aborder la perception de **fragilité** en expliquant que c'est un bijou fin et délicat, et non un défaut de qualité.
+        * **[Insérer un CTA avec le lien d'affiliation : https://amzn.to/48hnnxc et rel="sponsored"]**
+    * **H2 - 🍳 Idée N°4 : L'Allié Santé et Pratique (Friteuse Cecotec DuoLevel 10000)**
+        * **H3 : L'Air Fryer pour les familles :** Mettre en évidence les **arguments de vente massifs** : 10L, fonction Sync (gain de temps), et design vertical peu encombrant.
+        * **H3 : Faciliter la prise en main :** Aborder le point faible (absence de livre de recettes en français) et proposer la solution (communautés et téléchargement en ligne).
+        * **[Insérer un CTA avec le lien d'affiliation : https://amzn.to/44qVhyl et rel="sponsored"]**
+    * **H2 - 🕯️ Idée N°5 : Le Plaisir à Petit Prix (Coffret Yankee Candle de Noël)**
+        * **H3 : Un cadeau pour l'Ambiance :** Mettre en avant la qualité de la cire de soja, les senteurs de Noël et la présentation cadeau.
+        * **H3 : La Taille n'est pas tout :** Aborder le point faible "Petit" en le transformant en avantage : idéal pour échantillonner 6 senteurs sans gaspillage.
+        * **[Insérer un CTA avec le lien d'affiliation : https://amzn.to/4pE9xw1 et rel="sponsored"]**
+    * **H2 - Résumé et Dernier Appel à l'Action :** Conclure en rappelant que le choix est désormais facile et inciter à l'achat rapide avant Noël.
+
+4.  **Formatage & Visuels :** Confirmer l'application des règles CSS d'espacement. Insérer des descriptions d'illustrations pertinentes pour les 5 produits.
+
+N’oublie pas de faire un sommaire dynamique 
+---
+
+**

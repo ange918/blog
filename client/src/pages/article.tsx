@@ -4,7 +4,7 @@ import { articles, categories } from "@/lib/data";
 import { useRoute, Link } from "wouter";
 import NotFound from "@/pages/not-found";
 import { Button } from "@/components/ui/button";
-import { Star, ExternalLink, Clock, User, Tag, ArrowLeft, Trophy } from "lucide-react";
+import { Star, ExternalLink, Clock, User, Tag, ArrowLeft, Trophy, List } from "lucide-react";
 
 export default function ArticlePage() {
   const [match, params] = useRoute("/article/:slug");
@@ -17,6 +17,14 @@ export default function ArticlePage() {
 
   const category = categories.find(c => c.slug === article.category);
   const topPick = article.products && article.products.length > 0 ? article.products[0] : null;
+
+  // Extract headings for Table of Contents
+  const headings: { id: string; text: string }[] = [];
+  const regex = /<h2 id="([^"]+)">([^<]+)<\/h2>/g;
+  let regexMatch;
+  while ((regexMatch = regex.exec(article.content)) !== null) {
+    headings.push({ id: regexMatch[1], text: regexMatch[2] });
+  }
 
   // Schema.org JSON-LD for BlogPosting/Product Review
   const jsonLd = {
@@ -95,6 +103,29 @@ export default function ArticlePage() {
           {/* Main Column */}
           <div className="lg:col-span-8 lg:col-start-3">
             
+            {/* Dynamic Table of Contents */}
+            {headings.length > 0 && (
+              <div className="bg-card border border-border rounded-xl p-6 mb-10 shadow-sm">
+                <div className="flex items-center gap-2 mb-4 font-serif text-xl font-bold text-primary border-b border-border pb-2">
+                  <List className="w-5 h-5" />
+                  <h2>Sommaire</h2>
+                </div>
+                <ul className="space-y-2">
+                  {headings.map((heading) => (
+                    <li key={heading.id}>
+                      <a 
+                        href={`#${heading.id}`} 
+                        className="text-muted-foreground hover:text-secondary transition-colors flex items-start gap-2 group"
+                      >
+                        <span className="text-secondary/50 group-hover:text-secondary transition-colors mt-1.5 text-[10px]">●</span>
+                        <span>{heading.text}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             {/* Top Pick Banner (High Priority CTA) */}
             {topPick && (
               <div className="bg-secondary/5 border-2 border-secondary/20 rounded-xl p-6 mb-12 flex flex-col sm:flex-row gap-6 items-center shadow-sm">
