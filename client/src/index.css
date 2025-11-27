@@ -109,3 +109,41 @@
     @apply font-serif font-bold tracking-tight;
   }
 }
+
+/* Custom Typography Styles */
+.prose h2 {
+  @apply text-3xl font-bold text-primary mt-12 mb-6 border-b border-border/50 pb-2;
+}
+
+.prose h3 {
+  @apply text-2xl font-bold text-primary mt-8 mb-4;
+}
+
+.prose p {
+  @apply text-lg text-foreground/80 leading-relaxed mb-6;
+}
+
+.prose ul {
+  @apply list-disc pl-6 mb-6 space-y-2 text-foreground/80;
+}
+
+.prose li {
+  @apply text-lg;
+}
+
+.prose a {
+  @apply text-secondary font-semibold underline decoration-secondary/30 hover:decoration-secondary transition-all;
+}
+
+.prose strong {
+  @apply font-bold text-primary;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-secondary pl-6 italic text-muted-foreground my-8;
+}
+
+/* Custom Utility for Spacing */
+.section-spacing {
+  @apply py-16 md:py-24;
+}

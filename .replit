@@ -19,12 +19,12 @@ localPort = 5001
 externalPort = 3001
 
 [[ports]]
-localPort = 34005
-externalPort = 4200
-
-[[ports]]
 localPort = 36453
 externalPort = 3002
+
+[[ports]]
+localPort = 38703
+externalPort = 4200
 
 [[ports]]
 localPort = 44879
@@ -60,3 +60,4 @@ waitForPort = 5000
 
 [agent]
 mockupState = "MOCKUP"
+expertMode = true

@@ -157,7 +157,7 @@ export default function ArticlePage() {
             )}
 
             {/* Intro */}
-            <div className="prose prose-lg prose-headings:font-serif prose-headings:text-primary prose-a:text-secondary max-w-none mb-12">
+            <div className="prose max-w-none mb-12">
               <div dangerouslySetInnerHTML={{ __html: article.content }} />
             </div>
 
