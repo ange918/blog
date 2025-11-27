@@ -5,11 +5,11 @@ import originalImage from "@assets/generated_images/unique_original_gifts_concep
 import megaguideImage from "@assets/generated_images/festive_christmas_megaguide_banner.png";
 import guideUltimeImage from "@assets/generated_images/festive_composition_of_colorful_gifts.png";
 import xmasHeroImage from "@assets/stock_images/christmas_gifts_for__27f49b2f.jpg";
-import diffuserImage from "@assets/stock_images/essential_oil_diffus_b69e2387.jpg";
-import koboImage from "@assets/stock_images/e-reader_color_scree_17253094.jpg";
-import necklaceImage from "@assets/stock_images/silver_necklace_pend_31e98211.jpg";
-import airfryerImage from "@assets/stock_images/air_fryer_modern_kit_60764536.jpg";
-import candleImage from "@assets/stock_images/yankee_candle_christ_f42473e3.jpg";
+// import diffuserImage from "@assets/stock_images/essential_oil_diffus_b69e2387.jpg";
+// import koboImage from "@assets/stock_images/e-reader_color_scree_17253094.jpg";
+// import necklaceImage from "@assets/stock_images/silver_necklace_pend_31e98211.jpg";
+// import airfryerImage from "@assets/stock_images/air_fryer_modern_kit_60764536.jpg";
+// import candleImage from "@assets/stock_images/yankee_candle_christ_f42473e3.jpg";
 import menHeroImage from "@assets/stock_images/christmas_gifts_for__0de6d38a.jpg";
 // import ssdImage from "@assets/stock_images/portable_ssd_drive_s_a78fe442.jpg";
 // import projectorImage from "@assets/stock_images/portable_video_proje_a627e572.jpg";
@@ -17,12 +17,19 @@ import menHeroImage from "@assets/stock_images/christmas_gifts_for__0de6d38a.jpg
 // import watchImage from "@assets/stock_images/smartwatch_fitness_t_732b2995.jpg";
 // import dispenserImage from "@assets/stock_images/beer_dispenser_tower_314ab7a7.jpg";
 
-// Real user images
+// Real user images (Men)
 import ssdImage from "@assets/IMG_7417_1764241218182.jpeg";
 import projectorImage from "@assets/IMG_7419_1764241084450.jpeg";
 import legoImage from "@assets/IMG_7420_1764241084450.jpeg";
 import watchImage from "@assets/IMG_7421_1764241084450.jpeg";
 import dispenserImage from "@assets/IMG_7423_1764241084450.jpeg";
+
+// Real user images (Women)
+import diffuserImage from "@assets/IMG_7398_1764241312078.jpeg";
+import necklaceImage from "@assets/IMG_7400_1764241312078.jpeg";
+import airfryerImage from "@assets/IMG_7405_1764241312078.jpeg";
+import candleImage from "@assets/IMG_7407_1764241312078.jpeg";
+import koboImage from "@assets/IMG_7409_1764241312078.jpeg";
 
 export interface Category {
   id: string;
