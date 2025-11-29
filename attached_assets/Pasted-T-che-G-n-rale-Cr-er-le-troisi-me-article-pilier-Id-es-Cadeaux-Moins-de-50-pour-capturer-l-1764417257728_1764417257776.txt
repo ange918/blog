@@ -1,0 +1,40 @@
+Tâche Générale :** Créer le troisième article pilier "Idées Cadeaux à Moins de 50 €" pour capturer le trafic Longue Traîne de Noël.
+
+**Instructions de Modification (dans `script.js`):**
+
+1.  **Ciblage :** Créez un **nouvel objet article**.
+2.  **Métadonnées & Catégorisation :**
+    * **Titre (H1) :** "Idées Cadeaux de Noël à Moins de 50 € : Le Top 5 (Gadgets, Cuisine et Soins Abordables)"
+    * **Catégorie :** "Cadeaux par budget" (Associer cet article à la page mère "Cadeaux par budget")
+    * **Slug :** "meilleures-idees-cadeaux-noel-moins-de-50-euros"
+    * **Description Courte :** "Notre sélection des 5 cadeaux les plus utiles et appréciés pour Noël, sans jamais dépasser le budget de 50 €."
+
+3.  **`contenuComplet` (Le corps de l'article) :** Générez le contenu long en HTML.
+
+    * **H2 - Introduction & Sommaire :** Introduction percutante sur l'importance du budget à Noël, suivie du **Sommaire fonctionnel** listant les 5 H2 suivants.
+
+    * **[Insérer les Données Structurées (JSON-LD) ici,** incluant un `Review` et `Product` pour chaque produit, avec une notation agrégée de 4.7/5.]
+
+    * **H2 - ☕ Idée 1 : Le Gardien de la Chaleur (Mug Homealexa)**
+        * Analyse détaillée, insistant sur le côté pratique et le bon prix.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/4imt4hT et rel="sponsored"]**
+
+    * **H2 - ✨ Idée 2 : L'Ambiance Nomade (Lampe GRIFEMA)**
+        * Analyse détaillée, insistant sur la polyvalence Veilleuse/Déco/Camping.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/4afiOWD et rel="sponsored"]**
+
+    * **H2 - 🧩 Idée 3 : La Détente Créative (Puzzle Ravensburger)**
+        * Analyse détaillée, insistant sur l'effet anti-stress et la qualité Ravensburger.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/48kfcA3 et rel="sponsored"]**
+
+    * **H2 - 🧑‍🍳 Idée 4 : L'Assistant de Cuisine Puissant (Mixeur Plongeant Cecotec)**
+        * Analyse détaillée, insistant sur la puissance de 1200W pour le prix.
+        * **Désamorçage du point faible :** Justifier le bruit par la puissance.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/43QSGOa et rel="sponsored"]**
+
+    * **H2 - 🧔 Idée 5 : Le Kit de Barbier Abordable (Coffret Barbe et Rasage)**
+        * Analyse détaillée, insistant sur la valeur du kit complet.
+        * **Désamorçage du point faible :** Expliquer la perte de poils normale de la brosse.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/4oqy6LV et rel="sponsored"]**
+
+4.  **Conclusion & CTA final :** Encouragement à l'achat et rappel des avantages des petits budgets.

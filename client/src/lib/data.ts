@@ -31,6 +31,13 @@ import airfryerImage from "@assets/IMG_7405_1764241312078.jpeg";
 import candleImage from "@assets/IMG_7407_1764241312078.jpeg";
 import koboImage from "@assets/IMG_7409_1764241312078.jpeg";
 
+// Budget-friendly article images (Under 50€)
+import mugImage from "@assets/stock_images/thermal_mug_coffee_c_014ddd3c.jpg";
+import lampImage from "@assets/stock_images/portable_led_lamp_ni_312da1f6.jpg";
+import puzzleImage from "@assets/stock_images/jigsaw_puzzle_colorf_a2e9a7b9.jpg";
+import blenderImage from "@assets/stock_images/hand_blender_immersi_630a77f5.jpg";
+import beardKitImage from "@assets/stock_images/beard_grooming_kit_m_9857ea8c.jpg";
+
 export interface Category {
   id: string;
   title: string;
@@ -107,6 +114,169 @@ export const categories: Category[] = [
 ];
 
 export const articles: Article[] = [
+  {
+    id: "8",
+    title: "Idées Cadeaux de Noël à Moins de 50 € : Le Top 5 (Gadgets, Cuisine et Soins Abordables)",
+    slug: "meilleures-idees-cadeaux-noel-moins-de-50-euros",
+    category: "cadeaux-par-budget",
+    image: budgetImage,
+    date: "29 Nov 2025",
+    author: "Marie Dubois",
+    excerpt: "Notre sélection des 5 cadeaux les plus utiles et appréciés pour Noël, sans jamais dépasser le budget de 50 €.",
+    content: `
+      <h2 id="intro">Introduction : Un Noël Généreux sans se Ruiner</h2>
+      <p>Noël rime souvent avec dépenses excessives, culpabilité et découverts bancaires. Pourtant, les meilleurs cadeaux ne sont pas forcément les plus chers. En 2025, on peut faire plaisir avec style et intelligence, en offrant des objets vraiment utiles au quotidien. Notre philosophie ? Un cadeau réussi, c'est un cadeau qui sera utilisé chaque jour, pas rangé au fond d'un placard.</p>
+      <p>Dans ce guide, nous avons sélectionné <strong>5 cadeaux remarquables, tous à moins de 50 €</strong>, qui combinent qualité, originalité et praticité. Que ce soit pour garder le café chaud, créer une ambiance cosy, se détendre, cuisiner efficacement ou prendre soin de sa barbe, il y en a pour tous les goûts.</p>
+
+      <div class="bg-muted/50 p-6 rounded-xl border border-border my-8">
+        <h3 class="text-xl font-bold mb-4 mt-0">Dans ce guide :</h3>
+        <ul class="list-none pl-0 space-y-2">
+          <li><a href="#idee-1" class="flex items-center gap-2"><span class="text-secondary">01.</span> Le Gardien de la Chaleur (Mug Homealexa)</a></li>
+          <li><a href="#idee-2" class="flex items-center gap-2"><span class="text-secondary">02.</span> L'Ambiance Nomade (Lampe GRIFEMA)</a></li>
+          <li><a href="#idee-3" class="flex items-center gap-2"><span class="text-secondary">03.</span> La Détente Créative (Puzzle Ravensburger)</a></li>
+          <li><a href="#idee-4" class="flex items-center gap-2"><span class="text-secondary">04.</span> L'Assistant de Cuisine Puissant (Mixeur Cecotec)</a></li>
+          <li><a href="#idee-5" class="flex items-center gap-2"><span class="text-secondary">05.</span> Le Kit de Barbier Abordable (Coffret Barbe)</a></li>
+        </ul>
+      </div>
+
+      <h2 id="idee-1">Le Gardien de la Chaleur (Mug Homealexa Isotherme)</h2>
+      
+      <h3>Pourquoi c'est LE cadeau pratique par excellence</h3>
+      <p>Qui n'a jamais pesté en retrouvant son café froid après quelques minutes de travail ? Le mug isotherme Homealexa est la solution élégante à ce problème universel. Fabriqué en acier inoxydable de haute qualité, il maintient les boissons chaudes pendant des heures et les boissons froides toute la journée. Son design épuré s'intègre parfaitement dans un bureau moderne ou une cuisine contemporaine.</p>
+
+      <h3>Les points forts</h3>
+      <p>Ce n'est pas un simple mug, c'est un compagnon du quotidien. Sa double paroi sous vide garantit une isolation thermique exceptionnelle. Le couvercle hermétique évite les accidents de bureau (adieu le café renversé sur le clavier !). De plus, il est compatible lave-vaisselle, ce qui le rend encore plus pratique.</p>
+
+      <h3>Pour qui ?</h3>
+      <p>C'est le cadeau parfait pour les travailleurs de bureau, les étudiants en période d'examens, les parents débordés qui n'ont jamais le temps de finir leur café, ou tout simplement les amateurs de thé ou de café qui veulent savourer leur boisson à la température idéale.</p>
+      
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4imt4hT" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir le Mug Homealexa sur Amazon
+        </a>
+      </div>
+
+      <h2 id="idee-2">L'Ambiance Nomade (Lampe GRIFEMA LED Rechargeable)</h2>
+
+      <h3>La polyvalence faite lumière</h3>
+      <p>Cette petite merveille de GRIFEMA est bien plus qu'une simple lampe. C'est à la fois une veilleuse douce pour la chambre, une lampe d'ambiance pour un dîner romantique, et un éclairage de camping pour les aventuriers. Son design tactile permet de changer d'intensité lumineuse d'un simple geste, et sa batterie rechargeable offre plusieurs heures d'autonomie.</p>
+
+      <h3>Pourquoi elle se démarque</h3>
+      <p>Le secret de cette lampe, c'est sa capacité à créer une atmosphère chaleureuse instantanément. Fini les éclairages agressifs ! Elle propose plusieurs modes de luminosité et peut même changer de couleur selon les modèles. Son format compact la rend transportable partout : du salon à la terrasse, de la tente de camping à la table de chevet.</p>
+
+      <h3>L'argument économique</h3>
+      <p>Au-delà du prix d'achat abordable, cette lampe LED consomme une fraction de l'électricité d'une ampoule classique. C'est un cadeau qui fait du bien au portefeuille sur le long terme et à la planète.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4afiOWD" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Découvrir la Lampe GRIFEMA
+        </a>
+      </div>
+
+      <h2 id="idee-3">La Détente Créative (Puzzle Ravensburger 1000 pièces)</h2>
+
+      <h3>L'anti-stress par excellence</h3>
+      <p>Dans un monde hyper-connecté, le puzzle est une véritable bouffée d'oxygène. Les puzzles Ravensburger sont reconnus mondialement pour leur qualité exceptionnelle : découpe précise, pièces solides qui s'emboîtent parfaitement, et images sublimes. C'est un moment de méditation active, loin des écrans et du stress quotidien.</p>
+
+      <h3>La qualité Ravensburger</h3>
+      <p>Pourquoi choisir Ravensburger plutôt qu'une marque générique ? La différence se ressent dès les premières pièces. Leur technologie de découpe "Softclick" garantit un assemblage satisfaisant. Les couleurs sont vibrantes, l'image finale est une vraie œuvre à exposer. De plus, l'entreprise allemande a plus de 130 ans d'expérience dans ce domaine.</p>
+
+      <h3>Pour qui ?</h3>
+      <p>Pour les couples qui cherchent une activité à partager, les personnes qui veulent se déconnecter le soir, les retraités actifs, ou même les familles qui souhaitent passer du temps de qualité ensemble. Un puzzle Ravensburger, c'est des heures de bonheur simple.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/48kfcA3" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Offrir le Puzzle Ravensburger
+        </a>
+      </div>
+
+      <h2 id="idee-4">L'Assistant de Cuisine Puissant (Mixeur Plongeant Cecotec 1200W)</h2>
+
+      <h3>La puissance professionnelle à prix mini</h3>
+      <p>Avec ses 1200W de puissance, ce mixeur plongeant Cecotec rivalise avec des modèles deux fois plus chers. Il vient à bout des soupes les plus épaisses, des smoothies les plus glacés et des sauces les plus récalcitrantes. Son pied en acier inoxydable est robuste et hygiénique, et ses lames sont conçues pour un mixage ultra-fin.</p>
+
+      <h3>Désamorçage du point faible : Le bruit</h3>
+      <p>Soyons honnêtes : un moteur de 1200W fait du bruit. Mais c'est justement cette puissance qui permet de mixer en quelques secondes seulement au lieu de plusieurs minutes. Au final, le temps d'exposition au bruit est bien plus court qu'avec un appareil sous-dimensionné qui "rame". C'est un compromis intelligent.</p>
+
+      <h3>Le kit complet</h3>
+      <p>La plupart des modèles incluent plusieurs accessoires : fouet pour les blancs en neige et les crèmes, hachoir pour les oignons et les herbes, et gobelet gradué pour les dosages précis. C'est un véritable centre de préparation culinaire pour le prix d'un simple mixeur d'entrée de gamme.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/43QSGOa" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir le Mixeur Cecotec
+        </a>
+      </div>
+
+      <h2 id="idee-5">Le Kit de Barbier Abordable (Coffret Barbe et Rasage)</h2>
+
+      <h3>L'expérience barbershop à domicile</h3>
+      <p>Ce coffret complet est un rêve pour tout homme qui porte la barbe ou qui aime prendre soin de son visage. Il contient généralement : une huile à barbe nourrissante, un baume hydratant, un peigne en bois de qualité, une brosse à poils naturels, et parfois même des ciseaux de précision. C'est tout le nécessaire pour une barbe parfaite.</p>
+
+      <h3>Désamorçage du point faible : La perte de poils de la brosse</h3>
+      <p>Certains utilisateurs remarquent que la brosse perd quelques poils lors des premières utilisations. C'est tout à fait normal ! Il s'agit des poils qui n'étaient pas parfaitement fixés pendant la fabrication. Après quelques brossages, ce phénomène disparaît complètement. C'est en fait un signe que la brosse utilise de vrais poils naturels, et non du synthétique de mauvaise qualité.</p>
+
+      <h3>Pourquoi c'est un cadeau qui fait toujours plaisir</h3>
+      <p>Parce que c'est un cadeau intime et attentionné. Offrir un kit de soin, c'est dire "Je veux que tu te sentes bien dans ta peau". De plus, les produits de ce type de coffret durent plusieurs mois, ce qui donne une valeur d'usage bien supérieure au prix d'achat.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4oqy6LV" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Acheter le Coffret Barbe
+        </a>
+      </div>
+
+      <div class="bg-primary text-primary-foreground p-8 rounded-2xl text-center mt-12">
+        <h3 class="font-serif text-2xl font-bold mb-4">Conclusion : Le Petit Budget, Grande Attention</h3>
+        <p class="mb-6 opacity-90">
+          Vous l'avez compris : offrir un cadeau mémorable ne nécessite pas de casser sa tirelire. Ces 5 idées prouvent qu'avec moins de 50 €, on peut surprendre, émouvoir et faire vraiment plaisir. L'important, c'est de choisir un objet qui correspond à la personne, qui sera utilisé au quotidien et qui témoigne de votre attention.
+        </p>
+        <p class="font-bold opacity-90">
+          N'attendez pas la dernière minute et les ruptures de stock ! Cliquez sur votre coup de cœur et rayez ce cadeau de votre liste dès maintenant.
+        </p>
+      </div>
+    `,
+    products: [
+      {
+        name: "Mug Homealexa Isotherme",
+        price: "Voir prix",
+        image: mugImage,
+        description: "Mug isotherme en acier inoxydable double paroi.",
+        affiliateLink: "https://amzn.to/4imt4hT",
+        rating: 4.7
+      },
+      {
+        name: "Lampe GRIFEMA LED",
+        price: "Voir prix",
+        image: lampImage,
+        description: "Lampe portable rechargeable multi-usage.",
+        affiliateLink: "https://amzn.to/4afiOWD",
+        rating: 4.6
+      },
+      {
+        name: "Puzzle Ravensburger 1000p",
+        price: "Voir prix",
+        image: puzzleImage,
+        description: "Puzzle haute qualité anti-stress pour adultes.",
+        affiliateLink: "https://amzn.to/48kfcA3",
+        rating: 4.9
+      },
+      {
+        name: "Mixeur Cecotec 1200W",
+        price: "Voir prix",
+        image: blenderImage,
+        description: "Mixeur plongeant puissant avec accessoires.",
+        affiliateLink: "https://amzn.to/43QSGOa",
+        rating: 4.5
+      },
+      {
+        name: "Coffret Barbe Complet",
+        price: "Voir prix",
+        image: beardKitImage,
+        description: "Kit de soin barbe avec huile, baume et brosse.",
+        affiliateLink: "https://amzn.to/4oqy6LV",
+        rating: 4.7
+      }
+    ]
+  },
   {
     id: "7",
     title: "Idées Cadeaux de Noël pour Homme : Le Top 5 High-Tech, Sport, et Plaisir (Guide 2025)",
