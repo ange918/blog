@@ -11,6 +11,10 @@ import xmasHeroImage from "@assets/stock_images/christmas_gifts_for__27f49b2f.jp
 // import airfryerImage from "@assets/stock_images/air_fryer_modern_kit_60764536.jpg";
 // import candleImage from "@assets/stock_images/yankee_candle_christ_f42473e3.jpg";
 import menHeroImage from "@assets/stock_images/christmas_gifts_for__0de6d38a.jpg";
+
+// Generated hero images for articles
+import menGiftsHeroImage from "@assets/generated_images/masculine_christmas_gifts_for_men.png";
+import womenGiftsHeroImage from "@assets/generated_images/elegant_christmas_gifts_for_women.png";
 // import ssdImage from "@assets/stock_images/portable_ssd_drive_s_a78fe442.jpg";
 // import projectorImage from "@assets/stock_images/portable_video_proje_a627e572.jpg";
 // import legoImage from "@assets/stock_images/lego_architecture_tr_109f9f63.jpg";
@@ -282,7 +286,7 @@ export const articles: Article[] = [
     title: "Idées Cadeaux de Noël pour Homme : Le Top 5 High-Tech, Sport, et Plaisir (Guide 2025)",
     slug: "meilleures-idees-cadeaux-noel-homme-2025",
     category: "noel-homme",
-    image: menHeroImage,
+    image: menGiftsHeroImage,
     date: "28 Nov 2025",
     author: "Thomas Durand",
     excerpt: "Découvrez notre sélection des 5 cadeaux les plus pertinents pour l'homme en 2025 : du SSD ultra-rapide au vidéoprojecteur nomade, en passant par le set LEGO collector.",
@@ -419,7 +423,7 @@ export const articles: Article[] = [
     title: "Idées Cadeaux de Noël pour Femme : Le Guide 2025 des 5 Meilleurs Présents",
     slug: "meilleures-idees-cadeaux-noel-femme-2025",
     category: "noel-femme",
-    image: xmasHeroImage,
+    image: womenGiftsHeroImage,
     date: "27 Nov 2025",
     author: "Sophie Martin",
     excerpt: "Arrêtez de chercher ! Voici les 5 cadeaux incontournables pour femme en 2025, analysés en détail : du collier personnalisé à la liseuse Kobo couleur, en passant par l'Air Fryer gain de temps.",
