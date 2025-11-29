@@ -228,12 +228,12 @@ export const articles: Article[] = [
         </a>
       </div>
 
-      <div class="bg-primary text-primary-foreground p-8 rounded-2xl text-center mt-12">
-        <h3 class="font-serif text-2xl font-bold mb-4">Conclusion : Le Petit Budget, Grande Attention</h3>
-        <p class="mb-6 opacity-90">
+      <div class="bg-primary p-8 rounded-2xl text-center mt-12">
+        <h3 class="font-serif text-2xl font-bold mb-4 !text-white">Conclusion : Le Petit Budget, Grande Attention</h3>
+        <p class="mb-6 !text-white/90">
           Vous l'avez compris : offrir un cadeau mémorable ne nécessite pas de casser sa tirelire. Ces 5 idées prouvent qu'avec moins de 50 €, on peut surprendre, émouvoir et faire vraiment plaisir. L'important, c'est de choisir un objet qui correspond à la personne, qui sera utilisé au quotidien et qui témoigne de votre attention.
         </p>
-        <p class="font-bold opacity-90">
+        <p class="font-bold !text-white">
           N'attendez pas la dernière minute et les ruptures de stock ! Cliquez sur votre coup de cœur et rayez ce cadeau de votre liste dès maintenant.
         </p>
       </div>
@@ -908,9 +908,9 @@ export const articles: Article[] = [
         </li>
       </ul>
 
-      <div class="bg-primary text-primary-foreground p-8 rounded-2xl text-center mt-12">
-        <h3 class="font-serif text-2xl font-bold mb-4">Besoin de plus d'idées ?</h3>
-        <p class="mb-6 opacity-90">
+      <div class="bg-primary p-8 rounded-2xl text-center mt-12">
+        <h3 class="font-serif text-2xl font-bold mb-4 !text-white">Besoin de plus d'idées ?</h3>
+        <p class="mb-6 !text-white/90">
           Explorez nos catégories spécifiques pour trouver exactement ce qu'il vous faut.
         </p>
         <a href="/categorie/cadeaux-originaux-et-difficiles" class="inline-block bg-secondary hover:bg-secondary/90 text-white font-bold py-3 px-8 rounded-full transition-colors">
