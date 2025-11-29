@@ -44,19 +44,23 @@ export default function Home() {
               Des idées soignées, des trouvailles uniques et des guides experts pour faire de ce Noël un moment magique.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white font-semibold px-8 py-6 text-lg h-auto rounded-full">
-                Explorer les Guides
-              </Button>
-              <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white/40 text-white hover:bg-white hover:text-primary font-semibold px-8 py-6 text-lg h-auto rounded-full">
-                Nos Coups de Cœur
-              </Button>
+              <a href="#categories">
+                <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white font-semibold px-8 py-6 text-lg h-auto rounded-full" data-testid="button-explore-guides">
+                  Explorer les Guides
+                </Button>
+              </a>
+              <Link href={`/article/${articles[0]?.slug}`}>
+                <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white/40 text-white hover:bg-white hover:text-primary font-semibold px-8 py-6 text-lg h-auto rounded-full" data-testid="button-favorites">
+                  Nos Coups de Cœur
+                </Button>
+              </Link>
             </div>
           </motion.div>
         </div>
       </section>
 
       {/* Categories Section */}
-      <section className="py-20 bg-muted/30">
+      <section id="categories" className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-serif text-4xl font-bold text-primary mb-4">Trouvez l'Inspiration</h2>

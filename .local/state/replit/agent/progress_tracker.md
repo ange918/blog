@@ -8,3 +8,8 @@
   - "Cadeaux par Personne": Article Homme + Article Femme
   - "Cadeaux par Budget": Article Moins de 50€
   - "Cadeaux Originaux": Aucun article (catégorie vide pour l'instant)
+
+## Boutons Hero (29 Nov 2025)
+[x] Correction des boutons "Explorer les Guides" et "Nos Coups de Cœur":
+  - "Explorer les Guides" -> Défilement vers la section catégories
+  - "Nos Coups de Cœur" -> Lien vers l'article vedette
