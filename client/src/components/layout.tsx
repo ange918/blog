@@ -21,24 +21,24 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/">
-          <a className="flex items-center gap-2 font-serif text-2xl font-bold text-primary hover:opacity-90 transition-opacity">
-            <Gift className="h-8 w-8 text-secondary" />
-            <span>Noël Magique</span>
-          </a>
+        <Link href="/" className="flex items-center gap-2 font-serif text-2xl font-bold text-primary hover:opacity-90 transition-opacity">
+          <Gift className="h-8 w-8 text-secondary" />
+          <span>Noël Magique</span>
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           {mainCategories.map((cat) => (
-            <Link key={cat.id} href={`/categorie/${cat.slug}`}>
-              <a className={`text-sm font-medium transition-colors hover:text-secondary ${location === `/categorie/${cat.slug}` ? "text-secondary" : "text-foreground/80"}`}>
-                {cat.title}
-              </a>
+            <Link 
+              key={cat.id} 
+              href={`/categorie/${cat.slug}`}
+              className={`text-sm font-medium transition-colors hover:text-secondary ${location === `/categorie/${cat.slug}` ? "text-secondary" : "text-foreground/80"}`}
+            >
+              {cat.title}
             </Link>
           ))}
-          <Link href="/contact">
-            <a className="text-sm font-medium text-foreground/80 hover:text-secondary transition-colors">Contact</a>
+          <Link href="/contact" className="text-sm font-medium text-foreground/80 hover:text-secondary transition-colors">
+            Contact
           </Link>
         </nav>
 
@@ -62,19 +62,22 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="font-serif">
               <div className="flex flex-col gap-6 mt-8">
-                <Link href="/">
-                  <a className="text-2xl font-bold text-primary" onClick={() => setIsMenuOpen(false)}>Accueil</a>
+                <Link href="/" className="text-2xl font-bold text-primary" onClick={() => setIsMenuOpen(false)}>
+                  Accueil
                 </Link>
                 <div className="h-px bg-border" />
                 {mainCategories.map((cat) => (
-                  <Link key={cat.id} href={`/categorie/${cat.slug}`}>
-                    <a className="text-lg font-medium hover:text-secondary transition-colors" onClick={() => setIsMenuOpen(false)}>
-                      {cat.title}
-                    </a>
+                  <Link 
+                    key={cat.id} 
+                    href={`/categorie/${cat.slug}`}
+                    className="text-lg font-medium hover:text-secondary transition-colors" 
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {cat.title}
                   </Link>
                 ))}
-                <Link href="/contact">
-                  <a className="text-lg font-medium hover:text-secondary transition-colors" onClick={() => setIsMenuOpen(false)}>Contact</a>
+                <Link href="/contact" className="text-lg font-medium hover:text-secondary transition-colors" onClick={() => setIsMenuOpen(false)}>
+                  Contact
                 </Link>
               </div>
             </SheetContent>
@@ -105,8 +108,8 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               {categories.slice(0, 4).map((cat) => (
                 <li key={cat.id}>
-                  <Link href={`/categorie/${cat.slug}`}>
-                    <a className="hover:text-secondary transition-colors">{cat.title}</a>
+                  <Link href={`/categorie/${cat.slug}`} className="hover:text-secondary transition-colors">
+                    {cat.title}
                   </Link>
                 </li>
               ))}
@@ -117,18 +120,18 @@ export function Footer() {
             <h3 className="font-serif text-lg font-semibold mb-4 text-secondary">Liens Utiles</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/">
-                  <a className="hover:text-secondary transition-colors">Accueil</a>
+                <Link href="/" className="hover:text-secondary transition-colors">
+                  Accueil
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
-                  <a className="hover:text-secondary transition-colors">Contact</a>
+                <Link href="/contact" className="hover:text-secondary transition-colors">
+                  Contact
                 </Link>
               </li>
               <li>
-                <Link href="/mentions-legales">
-                  <a className="hover:text-secondary transition-colors">Mentions Légales</a>
+                <Link href="/mentions-legales" className="hover:text-secondary transition-colors">
+                  Mentions Légales
                 </Link>
               </li>
             </ul>

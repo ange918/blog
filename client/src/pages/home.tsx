@@ -65,24 +65,26 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {mainCategories.map((cat, index) => (
-              <Link key={cat.id} href={`/categorie/${cat.slug}`}>
-                <a className="group block relative h-96 overflow-hidden rounded-2xl shadow-lg cursor-pointer">
-                  <img 
-                    src={cat.image} 
-                    alt={cat.title} 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90 transition-opacity duration-300" />
-                  <div className="absolute bottom-0 left-0 right-0 p-8 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                    <h3 className="font-serif text-2xl font-bold mb-2">{cat.title}</h3>
-                    <p className="text-white/80 text-sm mb-4 line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
-                      {cat.description}
-                    </p>
-                    <span className="inline-flex items-center gap-2 text-secondary font-medium text-sm uppercase tracking-wider">
-                      Découvrir <ArrowRight className="w-4 h-4" />
-                    </span>
-                  </div>
-                </a>
+              <Link 
+                key={cat.id} 
+                href={`/categorie/${cat.slug}`}
+                className="group block relative h-96 overflow-hidden rounded-2xl shadow-lg cursor-pointer"
+              >
+                <img 
+                  src={cat.image} 
+                  alt={cat.title} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90 transition-opacity duration-300" />
+                <div className="absolute bottom-0 left-0 right-0 p-8 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                  <h3 className="font-serif text-2xl font-bold mb-2">{cat.title}</h3>
+                  <p className="text-white/80 text-sm mb-4 line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
+                    {cat.description}
+                  </p>
+                  <span className="inline-flex items-center gap-2 text-secondary font-medium text-sm uppercase tracking-wider">
+                    Découvrir <ArrowRight className="w-4 h-4" />
+                  </span>
+                </div>
               </Link>
             ))}
           </div>
@@ -104,35 +106,37 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {recentArticles.map((article) => (
-              <Link key={article.id} href={`/article/${article.slug}`}>
-                <a className="group flex flex-col h-full bg-card border border-border/50 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                  <div className="relative h-64 overflow-hidden">
-                    <img 
-                      src={article.image} 
-                      alt={article.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-primary uppercase tracking-wide shadow-sm">
-                      {categories.find(c => c.slug === article.category)?.title || "Guide"}
-                    </div>
+              <Link 
+                key={article.id} 
+                href={`/article/${article.slug}`}
+                className="group flex flex-col h-full bg-card border border-border/50 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              >
+                <div className="relative h-64 overflow-hidden">
+                  <img 
+                    src={article.image} 
+                    alt={article.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-primary uppercase tracking-wide shadow-sm">
+                    {categories.find(c => c.slug === article.category)?.title || "Guide"}
                   </div>
-                  <div className="flex flex-col flex-1 p-6">
-                    <div className="text-xs text-muted-foreground mb-3 flex items-center gap-2">
-                      <span>{article.date}</span>
-                      <span className="w-1 h-1 bg-secondary rounded-full" />
-                      <span>Par {article.author}</span>
-                    </div>
-                    <h3 className="font-serif text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">
-                      {article.title}
-                    </h3>
-                    <p className="text-muted-foreground text-sm line-clamp-3 mb-4 flex-1">
-                      {article.excerpt}
-                    </p>
-                    <div className="flex items-center text-primary font-medium text-sm mt-auto group-hover:translate-x-1 transition-transform">
-                      Lire l'article <ArrowRight className="w-4 h-4 ml-1" />
-                    </div>
+                </div>
+                <div className="flex flex-col flex-1 p-6">
+                  <div className="text-xs text-muted-foreground mb-3 flex items-center gap-2">
+                    <span>{article.date}</span>
+                    <span className="w-1 h-1 bg-secondary rounded-full" />
+                    <span>Par {article.author}</span>
                   </div>
-                </a>
+                  <h3 className="font-serif text-xl font-bold text-primary mb-3 group-hover:text-secondary transition-colors">
+                    {article.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm line-clamp-3 mb-4 flex-1">
+                    {article.excerpt}
+                  </p>
+                  <div className="flex items-center text-primary font-medium text-sm mt-auto group-hover:translate-x-1 transition-transform">
+                    Lire l'article <ArrowRight className="w-4 h-4 ml-1" />
+                  </div>
+                </div>
               </Link>
             ))}
           </div>

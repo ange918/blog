@@ -59,11 +59,12 @@ export default function ArticlePage() {
         {/* Header */}
         <div className="bg-muted/20 py-12 border-b border-border/40">
           <div className="container mx-auto px-4 max-w-4xl">
-            <Link href={category ? `/categorie/${category.slug}` : "/"}>
-              <a className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-6 transition-colors">
-                <ArrowLeft className="w-4 h-4 mr-1" /> 
-                {category ? category.title : "Retour"}
-              </a>
+            <Link 
+              href={category ? `/categorie/${category.slug}` : "/"}
+              className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-6 transition-colors"
+            >
+              <ArrowLeft className="w-4 h-4 mr-1" /> 
+              {category ? category.title : "Retour"}
             </Link>
             
             <h1 className="font-serif text-4xl md:text-5xl font-bold text-primary leading-tight mb-6">

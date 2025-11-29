@@ -35,12 +35,12 @@ import airfryerImage from "@assets/IMG_7405_1764241312078.jpeg";
 import candleImage from "@assets/IMG_7407_1764241312078.jpeg";
 import koboImage from "@assets/IMG_7409_1764241312078.jpeg";
 
-// Budget-friendly article images (Under 50€)
-import mugImage from "@assets/stock_images/thermal_mug_coffee_c_014ddd3c.jpg";
-import lampImage from "@assets/stock_images/portable_led_lamp_ni_312da1f6.jpg";
-import puzzleImage from "@assets/stock_images/jigsaw_puzzle_colorf_a2e9a7b9.jpg";
-import blenderImage from "@assets/stock_images/hand_blender_immersi_630a77f5.jpg";
-import beardKitImage from "@assets/stock_images/beard_grooming_kit_m_9857ea8c.jpg";
+// Budget-friendly article images (Under 50€) - Real product images
+import mugImage from "@assets/WhatsApp Image 2025-11-29 at 13.10.43 (1)_1764418362092.jpeg";
+import lampImage from "@assets/WhatsApp Image 2025-11-29 at 13.10.44_1764418362090.jpeg";
+import puzzleImage from "@assets/WhatsApp Image 2025-11-29 at 13.10.44 (1)_1764418362086.jpeg";
+import blenderImage from "@assets/WhatsApp Image 2025-11-29 at 13.10.44 (2)_1764418362084.jpeg";
+import beardKitImage from "@assets/WhatsApp Image 2025-11-29 at 13.10.44 (3)_1764418362082.jpeg";
 
 export interface Category {
   id: string;
@@ -125,7 +125,7 @@ export const articles: Article[] = [
     category: "cadeaux-par-budget",
     image: budgetImage,
     date: "29 Nov 2025",
-    author: "Marie Dubois",
+    author: "Père Noël",
     excerpt: "Notre sélection des 5 cadeaux les plus utiles et appréciés pour Noël, sans jamais dépasser le budget de 50 €.",
     content: `
       <h2 id="intro">Introduction : Un Noël Généreux sans se Ruiner</h2>
@@ -288,7 +288,7 @@ export const articles: Article[] = [
     category: "noel-homme",
     image: menGiftsHeroImage,
     date: "28 Nov 2025",
-    author: "Thomas Durand",
+    author: "Père Noël",
     excerpt: "Découvrez notre sélection des 5 cadeaux les plus pertinents pour l'homme en 2025 : du SSD ultra-rapide au vidéoprojecteur nomade, en passant par le set LEGO collector.",
     content: `
       <h2 id="intro">Introduction</h2>
@@ -425,7 +425,7 @@ export const articles: Article[] = [
     category: "noel-femme",
     image: womenGiftsHeroImage,
     date: "27 Nov 2025",
-    author: "Sophie Martin",
+    author: "Père Noël",
     excerpt: "Arrêtez de chercher ! Voici les 5 cadeaux incontournables pour femme en 2025, analysés en détail : du collier personnalisé à la liseuse Kobo couleur, en passant par l'Air Fryer gain de temps.",
     content: `
       <h2 id="intro">Le secret pour un cadeau réussi</h2>
@@ -555,7 +555,7 @@ export const articles: Article[] = [
     category: "cadeaux-par-personne",
     image: familyImage,
     date: "15 Nov 2025",
-    author: "Sophie Martin",
+    author: "Père Noël",
     excerpt: "Surprenez votre maman cette année avec notre sélection de cadeaux attentionnés et luxueux qu'elle va adorer à coup sûr.",
     content: `
       <p>Noël approche à grands pas et il est temps de penser à la personne la plus importante : Maman. Cette année, oubliez les cadeaux génériques et optez pour quelque chose qui lui fera vraiment plaisir.</p>
@@ -595,7 +595,7 @@ export const articles: Article[] = [
     category: "cadeaux-par-budget",
     image: budgetImage,
     date: "18 Nov 2025",
-    author: "Marc Dubois",
+    author: "Père Noël",
     excerpt: "Faire plaisir sans se ruiner, c'est possible ! Découvrez nos pépites à petit prix pour un Noël malin.",
     content: `
       <p>Le budget est serré cette année ? Pas de panique. On peut trouver des cadeaux fantastiques sans casser sa tirelire.</p>
@@ -624,7 +624,7 @@ export const articles: Article[] = [
     category: "cadeaux-originaux-et-difficiles",
     image: originalImage,
     date: "20 Nov 2025",
-    author: "Julie Bertrand",
+    author: "Père Noël",
     excerpt: "Sortez des sentiers battus avec ces objets curieux et amusants qui surprendront même les plus difficiles.",
     content: `
       <p>On a tous cet oncle qui achète tout ce qu'il veut. Pour le surprendre, il faut miser sur l'originalité.</p>
@@ -653,7 +653,7 @@ export const articles: Article[] = [
     category: "cadeaux-originaux-et-difficiles",
     image: megaguideImage,
     date: "25 Nov 2025",
-    author: "La Rédaction",
+    author: "Père Noël",
     excerpt: "Le guide définitif pour trouver le cadeau parfait cette année. Des idées pour tous les goûts, tous les budgets et tous les styles pour un Noël 2025 inoubliable.",
     content: `
       <meta name="blog-category" content="cadeaux-originaux">
@@ -804,7 +804,7 @@ export const articles: Article[] = [
     category: "guides-complets",
     image: guideUltimeImage,
     date: "26 Nov 2025",
-    author: "La Rédaction",
+    author: "Père Noël",
     excerpt: "Découvrez notre sélection exhaustive d'idées cadeaux pour tous les budgets, toutes les personnalités et tous les événements. Ne cherchez plus, le cadeau idéal est ici !",
     content: `
       <p class="lead text-xl font-light mb-8">
