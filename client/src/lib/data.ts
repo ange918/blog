@@ -501,7 +501,7 @@ export const articles: Article[] = [
         </a>
       </div>
 
-      <h2 id="conclusion">Résumé et Dernier Appel à l'Action</h2>
+      <h2 id="conclusion">Résumé</h2>
       <p>Vous l'aurez compris, il n'y a pas de "meilleur" cadeau dans l'absolu, mais il y a le cadeau parfait pour <em>elle</em>. Que vous choisissiez la sérénité du diffuseur, l'évasion de la liseuse, l'émotion du bijou, la praticité de l'Air Fryer ou la douceur des bougies, vous avez là 5 valeurs sûres.</p>
       <p class="font-bold text-lg mt-4">N'attendez pas la rupture de stock de dernière minute ! Cliquez sur le lien de votre coup de cœur et rayez ce cadeau de votre liste dès aujourd'hui.</p>
     `,

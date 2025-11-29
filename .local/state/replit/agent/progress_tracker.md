@@ -13,3 +13,6 @@
 [x] Correction des boutons "Explorer les Guides" et "Nos Coups de Cœur":
   - "Explorer les Guides" -> Défilement vers la section catégories
   - "Nos Coups de Cœur" -> Lien vers l'article vedette
+
+## Titres articles (29 Nov 2025)
+[x] Suppression de "et Dernier Appel à l'Action" - garder juste "Résumé"
