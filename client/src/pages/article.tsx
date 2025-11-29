@@ -1,10 +1,73 @@
 import { Layout } from "@/components/layout";
 import { Seo } from "@/components/seo";
-import { articles, categories } from "@/lib/data";
+import { articles, categories, type Product } from "@/lib/data";
 import { useRoute, Link } from "wouter";
 import NotFound from "@/pages/not-found";
 import { Button } from "@/components/ui/button";
 import { Star, ExternalLink, Clock, User, Tag, ArrowLeft, Trophy, List } from "lucide-react";
+
+function ArticleContent({ content, products }: { content: string; products?: Product[] }) {
+  if (!products || products.length === 0) {
+    return <div dangerouslySetInnerHTML={{ __html: content }} />;
+  }
+
+  const parts: { type: 'html' | 'product-image'; content: string; productIndex?: number }[] = [];
+  
+  const h2Regex = /<h2 id="idee-(\d+)"[^>]*>([^<]+)<\/h2>/g;
+  let lastIndex = 0;
+  let match;
+  
+  while ((match = h2Regex.exec(content)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push({ type: 'html', content: content.slice(lastIndex, match.index) });
+    }
+    
+    parts.push({ type: 'html', content: match[0] });
+    
+    const productIndex = parseInt(match[1], 10) - 1;
+    if (productIndex >= 0 && productIndex < products.length) {
+      parts.push({ type: 'product-image', content: '', productIndex });
+    }
+    
+    lastIndex = match.index + match[0].length;
+  }
+  
+  if (lastIndex < content.length) {
+    parts.push({ type: 'html', content: content.slice(lastIndex) });
+  }
+  
+  return (
+    <>
+      {parts.map((part, idx) => {
+        if (part.type === 'html') {
+          return <div key={idx} dangerouslySetInnerHTML={{ __html: part.content }} />;
+        } else if (part.type === 'product-image' && part.productIndex !== undefined) {
+          const product = products[part.productIndex];
+          return (
+            <div key={idx} className="my-6 flex justify-center">
+              <div className="relative w-full max-w-md overflow-hidden rounded-xl shadow-lg border border-border bg-white">
+                <img 
+                  src={product.image} 
+                  alt={product.name}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
+                  <div className="flex items-center gap-2 text-white">
+                    <span className="text-sm font-medium">{product.name}</span>
+                    <span className="flex items-center text-secondary text-sm">
+                      {product.rating} <Star className="w-3 h-3 fill-secondary ml-1" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        }
+        return null;
+      })}
+    </>
+  );
+}
 
 export default function ArticlePage() {
   const [match, params] = useRoute("/article/:slug");
@@ -159,7 +222,7 @@ export default function ArticlePage() {
 
             {/* Intro */}
             <div className="prose max-w-none mb-12">
-              <div dangerouslySetInnerHTML={{ __html: article.content }} />
+              <ArticleContent content={article.content} products={article.products} />
             </div>
 
             {/* Product List */}
