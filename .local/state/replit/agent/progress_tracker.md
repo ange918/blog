@@ -24,3 +24,7 @@
   - Lampe Zafferano Poldina Pro
   - Globe Lunaire National Geographic
   - Machine à Pop-Corn Emerio
+
+## Configuration Vercel (29 Nov 2025)
+[x] Création du fichier vercel.json pour déploiement statique
+[x] Test du build Vite - réussi (dist/public créé correctement)
