@@ -42,6 +42,14 @@ import puzzleImage from "@assets/WhatsApp Image 2025-11-29 at 13.10.44 (1)_17644
 import blenderImage from "@assets/WhatsApp Image 2025-11-29 at 13.10.44 (2)_1764418362084.jpeg";
 import beardKitImage from "@assets/WhatsApp Image 2025-11-29 at 13.10.44 (3)_1764418362082.jpeg";
 
+// Original gifts article images (50-150€)
+import originalGiftsHeroImage from "@assets/generated_images/original_christmas_gifts_hero.png";
+import atariImage from "@assets/WhatsApp Image 2025-11-29 at 16.54.58 (2)_1764431804982.jpeg";
+import kodakImage from "@assets/WhatsApp Image 2025-11-29 at 16.54.58 (1)_1764431804986.jpeg";
+import poldinaImage from "@assets/WhatsApp Image 2025-11-29 at 16.54.58_1764431804988.jpeg";
+import moonGlobeImage from "@assets/WhatsApp Image 2025-11-29 at 16.54.57_1764431804992.jpeg";
+import popcornImage from "@assets/WhatsApp Image 2025-11-29 at 16.54.57 (1)_1764431804990.jpeg";
+
 export interface Category {
   id: string;
   title: string;
@@ -118,6 +126,169 @@ export const categories: Category[] = [
 ];
 
 export const articles: Article[] = [
+  {
+    id: "9",
+    title: "Top 5 des Cadeaux de Noël Vraiment Originaux (50 € à 150 €) : L'Effet 'Wow' Garanti",
+    slug: "meilleurs-cadeaux-noel-originaux-50-150-euros",
+    category: "cadeaux-originaux-et-difficiles",
+    image: originalGiftsHeroImage,
+    date: "29 Nov 2025",
+    author: "Père Noël",
+    excerpt: "Notre sélection de 5 cadeaux inattendus, design ou d'expérience, pour surprendre sans vous ruiner. Des idées hors des sentiers battus pour marquer les esprits ce Noël.",
+    content: `
+      <h2 id="intro">Introduction : L'Art de Surprendre</h2>
+      <p>Offrir un cadeau, c'est bien. Offrir un cadeau qui fait ouvrir grand les yeux et provoque un "Woooow, c'est génial !", c'est mieux. En 2025, l'originalité est la nouvelle monnaie d'échange sous le sapin. Fini les écharpes lambda et les coffrets génériques. Cette année, on mise sur des objets qui racontent une histoire, qui éveillent la curiosité et qui seront montrés fièrement aux invités.</p>
+      <p>Dans ce guide, nous avons sélectionné <strong>5 cadeaux originaux entre 50 € et 150 €</strong> qui combinent design, nostalgie, créativité et émerveillement. Chaque cadeau a été choisi pour sa capacité à surprendre et à créer un souvenir durable.</p>
+
+      <div class="bg-muted/50 p-6 rounded-xl border border-border my-8">
+        <h3 class="text-xl font-bold mb-4 mt-0">Dans ce guide :</h3>
+        <ul class="list-none pl-0 space-y-2">
+          <li><a href="#idee-1" class="flex items-center gap-2"><span class="text-secondary">01.</span> Le Flashback de Noël (Mini-Console Atari)</a></li>
+          <li><a href="#idee-2" class="flex items-center gap-2"><span class="text-secondary">02.</span> Le Souvenir Imprimé (Imprimante KODAK Instant)</a></li>
+          <li><a href="#idee-3" class="flex items-center gap-2"><span class="text-secondary">03.</span> La Touche Design (Lampe Zafferano Poldina)</a></li>
+          <li><a href="#idee-4" class="flex items-center gap-2"><span class="text-secondary">04.</span> Le Voyage Astronaute (Globe Lunaire National Geographic)</a></li>
+          <li><a href="#idee-5" class="flex items-center gap-2"><span class="text-secondary">05.</span> La Fête du Cinéphile (Machine à Pop-Corn Emerio)</a></li>
+        </ul>
+      </div>
+
+      <h2 id="idee-1">Le Flashback de Noël (Mini-Console Atari Pocket Player Pro)</h2>
+      
+      <h3>Un voyage dans le temps vidéoludique</h3>
+      <p>La Mini-Console Atari Pocket Player Pro est bien plus qu'un simple gadget rétro : c'est une machine à remonter le temps. Avec ses 100 jeux préinstallés incluant des classiques légendaires comme Asteroids, Pong, Centipede et Breakout, elle offre des heures de nostalgie pure. Son format de poche permet de l'emporter partout, et son design fidèle aux couleurs emblématiques d'Atari (orange, rouge, noir) en fait un véritable objet de collection.</p>
+
+      <h3>L'édition 50ème Anniversaire</h3>
+      <p>Cette édition spéciale célèbre les 50 ans d'Atari avec un packaging collector et une licence officielle. Ce n'est pas une imitation chinoise douteuse, mais un produit authentique qui respecte l'héritage de la marque. Les boutons ont le toucher d'époque, l'écran couleur offre une qualité moderne, et la batterie rechargeable garantit plusieurs heures de jeu.</p>
+
+      <h3>Pour qui ?</h3>
+      <p>C'est le cadeau parfait pour les nostalgiques des années 80, les gamers qui veulent découvrir les origines du jeu vidéo, ou simplement les collectionneurs d'objets rétro. Un cadeau qui fait parler et qui se partage entre générations.</p>
+      
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/486CWJk" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir la Mini-Console Atari sur Amazon
+        </a>
+      </div>
+
+      <h2 id="idee-2">Le Souvenir Imprimé (Imprimante KODAK Step Instant)</h2>
+
+      <h3>La magie de l'instant capturé</h3>
+      <p>L'imprimante KODAK Step Instant transforme n'importe quel smartphone en appareil photo instantané. Grâce à la technologie ZINK (Zero Ink), elle imprime des photos autocollantes sans avoir besoin de cartouches d'encre. Le résultat ? Des tirages 5x7,6 cm résistants à l'eau et aux taches, parfaits pour décorer un carnet, un mur ou offrir sur le moment.</p>
+
+      <h3>Créativité sans limites</h3>
+      <p>L'application KODAK associée permet d'ajouter des filtres, des cadres et des stickers avant impression. C'est l'outil parfait pour les soirées entre amis, les anniversaires ou les mariages. Les photos peuvent être personnalisées avec des textes, des emojis et des effets artistiques. Et comme elles sont autocollantes, elles se transforment instantanément en souvenirs à coller partout.</p>
+
+      <h3>À propos de la qualité d'image</h3>
+      <p>Soyons clairs : ce n'est pas une imprimante professionnelle. La résolution est optimisée pour les petits formats créatifs, pas pour les agrandissements de qualité galerie. Mais c'est justement là que réside son charme : l'authenticité de l'instant, le grain légèrement vintage, l'émotion du moment partagé. C'est du Polaroid 2.0.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4p9nAtG" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Découvrir l'Imprimante KODAK
+        </a>
+      </div>
+
+      <h2 id="idee-3">La Touche Design (Lampe Zafferano Poldina Pro)</h2>
+
+      <h3>Le design italien au service de l'ambiance</h3>
+      <p>La lampe Zafferano Poldina Pro est l'incarnation du design italien contemporain. Primée à de nombreuses reprises, cette lampe sans fil rechargeable allie élégance minimaliste et fonctionnalité. Sa silhouette épurée s'intègre aussi bien sur une table de restaurant étoilé que sur une terrasse de maison de campagne. Elle est devenue l'icône des tables design dans le monde entier.</p>
+
+      <h3>Polyvalence intérieur/extérieur</h3>
+      <p>Grâce à son indice de protection IP54, la Poldina Pro résiste aux éclaboussures et à la poussière. Elle peut donc vivre à l'intérieur comme à l'extérieur sans crainte. Sa base magnétique permet de la poser sur n'importe quelle surface, et son variateur tactile offre un contrôle total de l'intensité lumineuse. De l'ambiance romantique à la lecture, elle s'adapte à tous les moments.</p>
+
+      <h3>L'autonomie en question</h3>
+      <p>Avec 9 heures d'autonomie à intensité moyenne, certains pourraient la trouver insuffisante. Mais réfléchissez : combien de dîners durent plus de 9 heures ? Cette lampe est conçue pour créer des moments, pas pour éclairer une usine. Et sa recharge USB-C est ultra-rapide pour être prête pour le prochain rendez-vous.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3K2Xjhr" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir la Lampe Zafferano Poldina
+        </a>
+      </div>
+
+      <h2 id="idee-4">Le Voyage Astronaute (Globe Lunaire National Geographic)</h2>
+
+      <h3>La Lune sur votre bureau</h3>
+      <p>Ce globe lunaire National Geographic est une reproduction fidèle et scientifiquement précise de notre satellite. Chaque cratère, chaque mer lunaire, chaque site d'alunissage est représenté avec une exactitude remarquable. C'est à la fois un objet de décoration fascinant et un outil éducatif passionnant pour les amoureux de l'espace et de l'astronomie.</p>
+
+      <h3>Double fonction : déco et éducation</h3>
+      <p>Éteint, c'est une pièce de décoration élégante qui attire le regard. Allumé, il devient une veilleuse douce qui révèle les reliefs lunaires dans une lumière apaisante. Les légendes en plusieurs langues permettent d'identifier les zones historiques et scientifiques. C'est le cadeau parfait pour stimuler la curiosité des petits comme des grands.</p>
+
+      <h3>La ligne de jointure</h3>
+      <p>Comme pour tout globe, une légère ligne de jointure peut être visible à l'équateur lunaire. C'est une contrainte de fabrication inévitable pour ce type de produit. Mais honnêtement, une fois la lumière allumée et la fascination installée, personne ne remarque ce détail. L'émerveillement prend le dessus sur la technique.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3Mcmpec" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Offrir le Globe Lunaire
+        </a>
+      </div>
+
+      <h2 id="idee-5">La Fête du Cinéphile (Machine à Pop-Corn Emerio)</h2>
+
+      <h3>L'ambiance cinéma à domicile</h3>
+      <p>La machine à pop-corn Emerio transforme n'importe quelle soirée film en véritable expérience de cinéma. Son design rétro années 50, avec sa carrosserie rouge et crème et ses chromes brillants, est un véritable objet de décoration autant qu'un appareil fonctionnel. Posée dans un salon, elle fait immédiatement parler d'elle.</p>
+
+      <h3>Sucré, salé, selon vos envies</h3>
+      <p>Contrairement aux machines à air chaud basiques, celle-ci permet de faire du vrai pop-corn de cinéma : avec de l'huile, du sel, du sucre ou du caramel selon vos préférences. La cuve en acier inoxydable chauffe uniformément pour un éclatement optimal des grains. Le résultat est croustillant, savoureux et généreux.</p>
+
+      <h3>Le nettoyage, un petit effort pour un grand résultat</h3>
+      <p>Oui, il faudra nettoyer la cuve après utilisation, surtout si vous faites du pop-corn caramélisé. Mais c'est le prix à payer pour une qualité incomparable. Un peu d'eau chaude, un passage d'éponge, et c'est reparti. Et avouons-le : le goût du pop-corn maison vaut bien ces quelques minutes de vaisselle.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/44yt5tt" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Acheter la Machine à Pop-Corn
+        </a>
+      </div>
+
+      <div class="bg-primary p-8 rounded-2xl text-center mt-12">
+        <h3 class="font-serif text-2xl font-bold mb-4 !text-white">Résumé</h3>
+        <p class="mb-6 !text-white/90">
+          Ces 5 cadeaux originaux ont un point commun : ils ne finiront pas au fond d'un placard. Ce sont des objets qui font vivre des expériences, qui décorent, qui rassemblent. Du voyage dans le temps vidéoludique à la soirée cinéma maison, en passant par la décoration design et l'exploration spatiale, chaque cadeau raconte une histoire unique.
+        </p>
+        <p class="font-bold !text-white">
+          L'originalité, c'est l'attention portée au détail. Cliquez sur votre coup de cœur et offrez un Noël mémorable !
+        </p>
+      </div>
+    `,
+    products: [
+      {
+        name: "Mini-Console Atari Pocket Player Pro",
+        price: "Voir prix",
+        image: atariImage,
+        description: "Console portable rétro avec 100 jeux classiques Atari.",
+        affiliateLink: "https://amzn.to/486CWJk",
+        rating: 4.8
+      },
+      {
+        name: "Imprimante KODAK Step Instant",
+        price: "Voir prix",
+        image: kodakImage,
+        description: "Imprimante photo portable sans encre, photos autocollantes.",
+        affiliateLink: "https://amzn.to/4p9nAtG",
+        rating: 4.6
+      },
+      {
+        name: "Lampe Zafferano Poldina Pro",
+        price: "Voir prix",
+        image: poldinaImage,
+        description: "Lampe design italienne sans fil, rechargeable USB-C.",
+        affiliateLink: "https://amzn.to/3K2Xjhr",
+        rating: 4.9
+      },
+      {
+        name: "Globe Lunaire National Geographic",
+        price: "Voir prix",
+        image: moonGlobeImage,
+        description: "Globe lumineux de la Lune, scientifiquement précis.",
+        affiliateLink: "https://amzn.to/3Mcmpec",
+        rating: 4.7
+      },
+      {
+        name: "Machine à Pop-Corn Emerio",
+        price: "Voir prix",
+        image: popcornImage,
+        description: "Machine rétro pour pop-corn sucré ou salé.",
+        affiliateLink: "https://amzn.to/44yt5tt",
+        rating: 4.8
+      }
+    ]
+  },
   {
     id: "8",
     title: "Idées Cadeaux de Noël à Moins de 50 € : Le Top 5 (Gadgets, Cuisine et Soins Abordables)",

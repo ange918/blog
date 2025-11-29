@@ -7,7 +7,7 @@
 [x] Classement des articles dans les catégories appropriées:
   - "Cadeaux par Personne": Article Homme + Article Femme
   - "Cadeaux par Budget": Article Moins de 50€
-  - "Cadeaux Originaux": Aucun article (catégorie vide pour l'instant)
+  - "Cadeaux Originaux": Article 50-150€
 
 ## Boutons Hero (29 Nov 2025)
 [x] Correction des boutons "Explorer les Guides" et "Nos Coups de Cœur":
@@ -16,3 +16,11 @@
 
 ## Titres articles (29 Nov 2025)
 [x] Suppression de "et Dernier Appel à l'Action" - garder juste "Résumé"
+
+## Nouvel article Cadeaux Originaux (29 Nov 2025)
+[x] Création de l'article "Top 5 des Cadeaux de Noël Vraiment Originaux (50€ à 150€)"
+  - Mini-Console Atari Pocket Player Pro
+  - Imprimante KODAK Step Instant
+  - Lampe Zafferano Poldina Pro
+  - Globe Lunaire National Geographic
+  - Machine à Pop-Corn Emerio

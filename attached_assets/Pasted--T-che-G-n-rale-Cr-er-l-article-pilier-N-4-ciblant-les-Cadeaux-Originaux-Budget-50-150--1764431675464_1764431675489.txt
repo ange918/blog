@@ -1,0 +1,42 @@
+**Tâche Générale :** Créer l'article pilier N°4, ciblant les "Cadeaux Originaux" (Budget 50 € - 150 €), avec une exigence de PRO-FON-DEUR dans l'analyse de chaque produit.
+
+**Instructions de Modification (dans `script.js`):**
+
+1.  **Ciblage :** Créez un **nouvel objet article**.
+2.  **Métadonnées & Catégorisation :**
+    * **Titre (H1) :** "Top 5 des Cadeaux de Noël Vraiment Originaux (50 € à 150 €) : L'Effet 'Wow' Garanti"
+    * **Catégorie :** "Cadeaux Originaux" (Associer cet article à la page mère correspondante)
+    * **Slug :** "meilleurs-cadeaux-noel-originaux-50-150-euros"
+    * **Description Courte :** "Notre sélection de 5 cadeaux inattendus, design ou d'expérience, pour surprendre sans vous ruiner. Des idées hors des sentiers battus pour marquer les esprits ce Noël."
+
+3.  **`contenuComplet` (Le corps de l'article) :** Générez le contenu long en HTML.
+
+    * **H2 - Introduction & Sommaire :** Introduction percutante, expliquant pourquoi l'originalité est clé, suivie du **Sommaire fonctionnel** listant les 5 H2 suivants.
+
+    * **[Insérer les Données Structurées (JSON-LD) ici,** incluant un `Review` et `Product` pour chaque produit, avec une notation agrégée de 4.8/5.]
+
+    * **H2 - 🕹️ Idée 1 : Le Flashback de Noël (Mini-Console Atari)**
+        * **Analyse :** Développez chaque Point Fort en un paragraphe complet. Insistez sur le côté collector et nostalgique.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/486CWJk et rel="sponsored"]**
+
+    * **H2 - 📸 Idée 2 : Le Souvenir Imprimé (Imprimante KODAK Instant)**
+        * **Analyse :** Développez chaque Point Fort en un paragraphe complet, insistant sur le côté "créatif" et l'absence d'encre.
+        * **Désamorçage du point faible :** Expliquer l'usage idéal (créatif vs. professionnel) pour la qualité d'image.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/4p9nAtG et rel="sponsored"]**
+
+    * **H2 - ✨ Idée 3 : La Touche Design (Lampe Zafferano Poldina)**
+        * **Analyse :** Développez chaque Point Fort en un paragraphe complet, insistant sur le design haut de gamme et la polyvalence Intérieur/Extérieur.
+        * **Désamorçage du point faible :** Justifier l'autonomie pour un usage d'ambiance.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/3K2Xjhr et rel="sponsored"]**
+
+    * **H2 - 🌕 Idée 4 : Le Voyage Astronaute (Globe Lunaire National Geographic)**
+        * **Analyse :** Développez chaque Point Fort en un paragraphe complet, insistant sur la précision scientifique et le double rôle déco/éducatif.
+        * **Désamorçage du point faible :** Positionner la ligne d'assemblage comme un détail mineur face à la richesse du contenu lumineux.
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/3Mcmpec et rel="sponsored"]**
+
+    * **H2 - 🍿 Idée 5 : La Fête du Cinéphile (Machine à Pop-Corn Emerio)**
+        * **Analyse :** Développez chaque Point Fort en un paragraphe complet, insistant sur l'ambiance "cinéma maison" et le côté convivial.
+        * **Désamorçage du point faible :** Justifier l'effort de nettoyage par la qualité du résultat (sucré/salé).
+        * **[Insérer le CTA avec le lien d'affiliation : https://amzn.to/44yt5tt et rel="sponsored"]**
+
+4.  **Conclusion & CTA final :** Encouragement à l'achat et rappel de l'originalité garantie.
