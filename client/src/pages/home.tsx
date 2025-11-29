@@ -9,6 +9,8 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   const recentArticles = articles.slice(0, 3);
+  // Only show main categories on homepage (first 4 categories)
+  const mainCategories = categories.slice(0, 4);
 
   return (
     <Layout>
@@ -61,8 +63,8 @@ export default function Home() {
             <div className="w-24 h-1 bg-secondary mx-auto rounded-full" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {categories.map((cat, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {mainCategories.map((cat, index) => (
               <Link key={cat.id} href={`/categorie/${cat.slug}`}>
                 <a className="group block relative h-96 overflow-hidden rounded-2xl shadow-lg cursor-pointer">
                   <img 

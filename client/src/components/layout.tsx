@@ -13,6 +13,9 @@ import { useState } from "react";
 export function Header() {
   const [location] = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  // Only show main categories in navigation (first 4 categories)
+  const mainCategories = categories.slice(0, 4);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -27,7 +30,7 @@ export function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
-          {categories.map((cat) => (
+          {mainCategories.map((cat) => (
             <Link key={cat.id} href={`/categorie/${cat.slug}`}>
               <a className={`text-sm font-medium transition-colors hover:text-secondary ${location === `/categorie/${cat.slug}` ? "text-secondary" : "text-foreground/80"}`}>
                 {cat.title}
@@ -63,7 +66,7 @@ export function Header() {
                   <a className="text-2xl font-bold text-primary" onClick={() => setIsMenuOpen(false)}>Accueil</a>
                 </Link>
                 <div className="h-px bg-border" />
-                {categories.map((cat) => (
+                {mainCategories.map((cat) => (
                   <Link key={cat.id} href={`/categorie/${cat.slug}`}>
                     <a className="text-lg font-medium hover:text-secondary transition-colors" onClick={() => setIsMenuOpen(false)}>
                       {cat.title}
@@ -100,7 +103,7 @@ export function Footer() {
           <div>
             <h3 className="font-serif text-lg font-semibold mb-4 text-secondary">Catégories</h3>
             <ul className="space-y-2 text-sm">
-              {categories.map((cat) => (
+              {categories.slice(0, 4).map((cat) => (
                 <li key={cat.id}>
                   <Link href={`/categorie/${cat.slug}`}>
                     <a className="hover:text-secondary transition-colors">{cat.title}</a>
