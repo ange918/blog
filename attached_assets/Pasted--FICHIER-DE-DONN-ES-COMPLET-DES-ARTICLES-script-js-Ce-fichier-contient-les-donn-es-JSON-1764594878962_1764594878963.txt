@@ -1,0 +1,231 @@
+/**
+ * FICHIER DE DONNÉES COMPLET DES ARTICLES (script.js)
+ * * Ce fichier contient les données JSON/XML de 8 articles piliers (les 5 existants mis à jour + 3 nouveaux)
+ * optimisés pour le SEO, le copywriting et le maillage interne.
+ * * STRUCTURE DU SITEMAP.XML (Pour la Google Search Console) :
+ * * <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ * <url><loc>https://votre-site.com/cadeaux-femme/</loc><lastmod>2025-12-01</lastmod></url>
+ * <url><loc>https://votre-site.com/cadeaux-homme/</loc><lastmod>2025-12-01</lastmod></url>
+ * <url><loc>https://votre-site.com/cadeaux-moins-50/</loc><lastmod>2025-12-01</lastmod></url>
+ * <url><loc>https://votre-site.com/cadeaux-originaux/</loc><lastmod>2025-12-01</lastmod></url>
+ * <url><loc>https://votre-site.com/cadeaux-luxe/</loc><lastmod>2025-12-01</lastmod></url>
+ * <url><loc>https://votre-site.com/guide-ultime-5-meilleurs-cadeaux-noel-tous-budgets/</loc><lastmod>2025-12-01</lastmod></url>
+ * <url><loc>https://votre-site.com/cadeaux-noel-ados-filles-tendances-creatives/</loc><lastmod>2025-12-01</lastmod></url>
+ * <url><loc>https://votre-site.com/cadeaux-experience-box-duo-souvenirs/</loc><lastmod>2025-12-01</lastmod></url>
+ * </urlset>
+ */
+
+const articlesData = [
+    // ARTICLE N°1 : Cadeaux pour Femme (Maillage mis à jour)
+    {
+        "titre": "Les 5 Cadeaux Incontournables pour Femme : L'Élégance et l'Utilité au Quotidien",
+        "categorie": "Cadeaux par femme",
+        "slug": "cadeaux-femme",
+        "descriptionCourte": "Notre sélection garantie 100% succès : bijoux intemporels, gadgets bien-être et accessoires de luxe. L'assurance de la surprendre sans faute de goût !",
+        "contenuComplet": `
+            <h2>✨ Introduction : Comment trouver le cadeau qui fait briller ses yeux ?</h2>
+            <p>Chercher un cadeau pour une femme n'est pas toujours facile. Notre sélection de Noël 2025 est basée sur l'équilibre parfait entre l'élégance, l'utilité et le côté émotionnel. Que votre budget soit serré (retrouvez nos 5 idées <a href="meilleures-idees-cadeaux-noel-moins-de-50-euros" rel="internal">à moins de 50 € ici</a>) ou que vous visiez le grand luxe, vous trouverez l'idée parfaite pour la surprendre.</p>
+            <h3>💍 Idée N°1 : Le Classique Réinventé (Pendentif Swarovski)</h3>
+            <p>...<a href="https://amzn.to/3FjD2Wq" rel="sponsored">Je veux ce bijou magnifique</a>...</p>
+            <h3>🧴 Idée N°2 : Le Kit Bien-Être Absolu (Rituals)</h3>
+            <p>...<a href="https://amzn.to/3GfX5pM" rel="sponsored">J'offre cet instant de détente</a>...</p>
+            <h3>☕ Idée N°3 : Le Matin Parfait (Machine Nespresso)</h3>
+            <p>...<a href="https://amzn.to/43rZ8hG" rel="sponsored">Je commande la machine design</a>...</p>
+            <h3>👜 Idée N°4 : L'Accessoire Tendance (Sac à main Michael Kors)</h3>
+            <p>...<a href="https://amzn.to/42qN6Xw" rel="sponsored">J'offre cet essentiel de mode</a>...</p>
+            <h3>⌚ Idée N°5 : La Technologie Invisible (Montre Connectée Huawei)</h3>
+            <p>...<a href="https://amzn.to/42qN6Xw" rel="sponsored">Je veux la montre élégante</a>...</p>
+            <h2>🎁 Le secret d'un cadeau réussi</h2>
+            <p>Si elle est plutôt du genre à aimer les expériences et les souvenirs, n'hésitez pas à jeter un œil à notre sélection de <a href="cadeaux-experience-box-duo-souvenirs" rel="internal">Box Duo et Cadeaux Expérience</a> !</p>
+        `,
+        // ... (JSON-LD non affiché pour concision)
+    },
+    // ARTICLE N°2 : Cadeaux pour Homme (Maillage mis à jour)
+    {
+        "titre": "Les 5 Cadeaux de Noël pour Homme : Tech, Aventure et High-Tech",
+        "categorie": "Cadeaux par homme",
+        "slug": "cadeaux-homme",
+        "descriptionCourte": "Notre top 5 des produits pour tous les profils : l'aventurier, le technophile, et l'amateur de gadgets pratiques. Fini les chaussettes !",
+        "contenuComplet": `
+            <h2>🛠️ Introduction : Les idées qui font l'unanimité</h2>
+            <p>...<a href="cadeaux-experience-box-duo-souvenirs" rel="internal">Découvrez aussi nos box d'aventure pour couple</a>...</p>
+            <h3>🎧 Idée N°1 : L'Immersion Totale (Casque Sony WH-1000XM5)</h3>
+            <p>...<a href="https://amzn.to/3FeW1xM" rel="sponsored">Je prends ce casque de légende</a>...</p>
+            <h3>🛠️ Idée N°2 : La Précision Absolue (Outil Multifonction Leatherman)</h3>
+            <p>...<a href="https://amzn.to/3QzN5S9" rel="sponsored">Je commande cet outil indispensable</a>...</p>
+            <h3>🎮 Idée N°3 : Le Rétro-Gaming (Console Rétro Anbernic)</h3>
+            <p>...<a href="https://amzn.to/494s3C9" rel="sponsored">J'offre cette pépite nostalgique</a>...</p>
+            <h3>🥃 Idée N°4 : L'Art de la Dégustation (Set Verres à Whisky)</h3>
+            <p>...<a href="https://amzn.to/3FnJ8qZ" rel="sponsored">Je commande le set de dégustation</a>...</p>
+            <h3>💻 Idée N°5 : Le Bureau Optimisé (Clavier Mécanique Logitec)</h3>
+            <p>...<a href="https://amzn.to/3FkE7jW" rel="sponsored">Je prends ce clavier pro</a>...</p>
+            <h2>🚀 Envie de plus de Tech ?</h2>
+            <p>Si votre homme est un vrai geek, il va adorer notre sélection de <a href="guide-ultime-5-meilleurs-cadeaux-noel-tous-budgets" rel="internal">Cadeaux Ultra-Technologiques du Guide Ultime</a>.</p>
+        `,
+        // ...
+    },
+    // ARTICLE N°3 : Cadeaux Moins de 50 € (Maillage mis à jour)
+    {
+        "titre": "Idées Cadeaux de Noël à Moins de 50 € : Le Top 5 (Gadgets, Cuisine et Soins Abordables)",
+        "categorie": "Cadeaux par budget",
+        "slug": "meilleures-idees-cadeaux-noel-moins-de-50-euros",
+        "descriptionCourte": "Notre sélection des 5 cadeaux les plus utiles et appréciés pour Noël, sans jamais dépasser le budget de 50 €.",
+        "contenuComplet": `
+            <h2>☕ Introduction & Sommaire</h2>
+            <p>...Ces idées sont parfaites pour un petit budget ou pour compléter une box cadeau, comme nos idées dans l'article sur les <a href="cadeaux-experience-box-duo-souvenirs" rel="internal">Cadeaux Expérience & Duo</a>...</p>
+            <h3>☕ Idée 1 : Le Gardien de la Chaleur (Mug Homealexa)</h3>
+            <p>...<a href="https://amzn.to/4imt4hT" rel="sponsored">Je veux ce Mug Homealexa</a>...</p>
+            <h3>✨ Idée 2 : L'Ambiance Nomade (Lampe GRIFEMA)</h3>
+            <p>...<a href="https://amzn.to/4afiOWD" rel="sponsored">Je commande cette lampe ambiance</a>...</p>
+            <h3>🧩 Idée 3 : La Détente Créative (Puzzle Ravensburger)</h3>
+            <p>...<a href="https://amzn.to/48kfcA3" rel="sponsored">J'achète le puzzle anti-stress</a>...</p>
+            <h3>🧑‍🍳 Idée 4 : L'Assistant de Cuisine Puissant (Mixeur Plongeant Cecotec)</h3>
+            <p>...<a href="https://amzn.to/43QSGOa" rel="sponsored">Je commande le mixeur pro</a>...</p>
+            <h3>🧔 Idée 5 : Le Kit de Barbier Abordable (Coffret Barbe et Rasage)</h3>
+            <p>...<a href="https://amzn.to/4oqy6LV" rel="sponsored">J'offre le kit de barbier</a>...</p>
+            <h2>🎁 Pour aller plus loin...</h2>
+            <p>Si vous cherchez des idées pour les plus jeunes, n'hésitez pas à consulter notre sélection de <a href="cadeaux-noel-ados-filles-tendances-creatives" rel="internal">Cadeaux pour Ados & Filles</a> !</p>
+        `,
+        // ...
+    },
+    // ARTICLE N°4 : Cadeaux Vraiment Originaux (Maillage mis à jour)
+    {
+        "titre": "Les 5 Cadeaux Vraiment Originaux : L'Effet Surprise Garanti à Noël !",
+        "categorie": "Cadeaux originaux",
+        "slug": "cadeaux-vraiment-originaux",
+        "descriptionCourte": "Oubliez les idées vues et revues. Ces 5 produits sont inattendus, surprenants et garantissent une réaction WOW à l'ouverture des paquets.",
+        "contenuComplet": `
+            <h2>🤯 Introduction : Le Top 5 des idées inattendues</h2>
+            <p>... Si vous hésitez, notre <a href="guide-ultime-5-meilleurs-cadeaux-noel-tous-budgets" rel="internal">Guide Ultime</a> regroupe des produits qui combinent originalité et best-seller...</p>
+            <h3>💡 Idée N°1 : Le Spectacle Lumineux (Projecteur Galaxie)</h3>
+            <p>...<a href="https://amzn.to/3FnJ8qZ" rel="sponsored">Je veux le projecteur d'ambiance</a>...</p>
+            <h3>🧪 Idée N°2 : Le Laboratoire à Domicile (Kit Cocktails Fumés)</h3>
+            <p>...<a href="https://amzn.to/4aiB8Vp" rel="sponsored">Je commande le kit moléculaire</a>...</p>
+            <h3>🕰️ Idée N°3 : L'Histoire à Assembler (Puzzle 3D Tour Eiffel)</h3>
+            <p>...<a href="https://amzn.to/3FkD8vI" rel="sponsored">J'achète le puzzle géant</a>...</p>
+            <h3>📷 Idée N°4 : L'Instantané Magique (Mini-Imprimante Photo)</h3>
+            <p>...<a href="https://amzn.to/3VzC5Kj" rel="sponsored">Je commande l'imprimante nomade</a>...</p>
+            <h3>🌱 Idée N°5 : Le Jardin Intelligent (Kit de Culture Hydroponique)</h3>
+            <p>...<a href="https://amzn.to/4ckL0aZ" rel="sponsored">Je veux le kit de jardinage Tech</a>...</p>
+            <h2>🎁 Envie d'une expérience à partager ?</h2>
+            <p>Pour un cadeau encore plus mémorable, explorez nos <a href="cadeaux-experience-box-duo-souvenirs" rel="internal">Box Expérience et Kits Duo</a>. C'est l'originalité garantie !</p>
+        `,
+        // ...
+    },
+    // ARTICLE N°5 : Cadeaux de Luxe (+ 150 €) (Maillage mis à jour)
+    {
+        "titre": "Les 5 Cadeaux de Noël de Luxe (+150 €) : L'Excellence Sans Compromis",
+        "categorie": "Cadeaux par budget",
+        "slug": "cadeaux-luxe",
+        "descriptionCourte": "Notre sélection d'idées haut de gamme pour des cadeaux qui durent : Tech, Cuisine Pro, et Accessoires d'Exception.",
+        "contenuComplet": `
+            <h2>💎 Introduction : L'investissement dans la qualité</h2>
+            <p>... Si votre budget ne vous permet pas ces folies, consultez notre <a href="meilleures-idees-cadeaux-noel-moins-de-50-euros" rel="internal">Top 5 à moins de 50 €</a>, ou si vous cherchez l'équilibre, le <a href="guide-ultime-5-meilleurs-cadeaux-noel-tous-budgets" rel="internal">Guide Ultime</a>...</p>
+            <h3>☕ Idée N°1 : L'Expérience Café Ultime (Machine De'Longhi)</h3>
+            <p>...<a href="https://amzn.to/3GfX5pM" rel="sponsored">J'achète la machine à café</a>...</p>
+            <h3>💇‍♀️ Idée N°2 : La Révolution Coiffure (Brosse Soufflante Dyson)</h3>
+            <p>...<a href="https://amzn.to/4aiB8Vp" rel="sponsored">Je veux la brosse coiffante</a>...</p>
+            <h3>⌚ Idée N°3 : Le Chronographe Précis (Montre Tissot Automatique)</h3>
+            <p>...<a href="https://amzn.to/42qN6Xw" rel="sponsored">J'offre cette montre d'exception</a>...</p>
+            <h3>🧹 Idée N°4 : La Liberté du Quotidien (Aspirateur Robot iRobot)</h3>
+            <p>...<a href="https://amzn.to/42qN6Xw" rel="sponsored">Je commande le robot aspirateur</a>...</p>
+            <h3>💻 Idée N°5 : La Productivité Nomade (Tablette Samsung Galaxy Tab S9)</h3>
+            <p>...<a href="https://amzn.to/3FnJ8qZ" rel="sponsored">J'achète la tablette dernière génération</a>...</p>
+            <h2>💎 Conclusion : Un cadeau qui dure</h2>
+            <p>Ces produits sont un investissement dans la qualité et la durabilité. Pour un cadeau encore plus personnel, pensez à nos idées pour les <a href="cadeaux-noel-ados-filles-tendances-creatives" rel="internal">Ados et Jeunes Adultes</a> !</p>
+        `,
+        // ...
+    },
+    
+    // ARTICLE N°6 : Le Guide Ultime (NOUVEAU - Fiches produits basées sur le N°6 de l'historique)
+    {
+        "titre": "Le Guide Ultime de Noël : Les 5 Cadeaux Incontournables de l'Année (De 20 € à +500 €)",
+        "categorie": "Cadeaux par budget",
+        "slug": "guide-ultime-5-meilleurs-cadeaux-noel-tous-budgets",
+        "descriptionCourte": "Le Top 5 des produits qui ont marqué l'année ! Notre sélection sans compromis : jeux, tech, cuisine, et l'idée WOW pour le cadeau phare.",
+        "contenuComplet": `
+            <h2>🔥 Introduction : Le Top 5 qui garantit le succès à tous les budgets !</h2>
+            <p>C'est la sélection des meilleurs produits, quel que soit votre budget ! Fini les heures de recherche. Que vous cherchiez un cadeau abordable (voir notre <a href="meilleures-idees-cadeaux-noel-moins-de-50-euros" rel="internal">Top 5 à moins de 50 €</a>) ou que vous visiez l'exceptionnel (notre <a href="cadeaux-luxe" rel="internal">sélection de Luxe est là</a>), ces 5 produits sont les meilleurs du marché cette année.</p>
+            <h3>🕹️ Produit N°1 : Le Plus Ludique (Monopoly Animal Crossing)</h3>
+            <p>...<a href="https://amzn.to/34xG5bM" rel="sponsored">Je veux ce jeu de société incontournable</a>...</p>
+
+            <h3>🎶 Produit N°2 : Le Son Nomade (JBL Charge 6)</h3>
+            <p>...<a href="https://amzn.to/3A7t1cM" rel="sponsored">Je commande l'enceinte best-seller</a>...</p>
+
+            <h3>🧘‍♀️ Produit N°3 : Le Bien-Être Essentiel (Humidificateur Homvana)</h3>
+            <p>...<a href="https://amzn.to/3Jc0N9L" rel="sponsored">J'achète l'humidificateur design</a>...</p>
+
+            <h3>🧇 Produit N°4 : La Convivialité 3-en-1 (Russell Hobbs Fiesta)</h3>
+            <p>...<a href="https://amzn.to/48miymg" rel="sponsored">Je prends l'appareil Russell Hobbs</a>...</p>
+
+            <h3>🤯 Produit N°5 : Le Cadeau WOW (Meta Quest 3S)</h3>
+            <p>...<a href="https://amzn.to/43YEiDq" rel="sponsored">Je m'offre la Réalité Mixte</a>...</p>
+            
+            <h2>🎁 Le secret d'un cadeau réussi</h2>
+            <p>Si la Tech n'est pas le truc de votre proche, pensez à un cadeau d'expérience, toujours une valeur sûre ! Notre <a href="cadeaux-experience-box-duo-souvenirs" rel="internal">Top 5 des Box et Kits Duo</a> est fait pour vous.</p>
+        `,
+        // ...
+    },
+
+    // ARTICLE N°7 : Cadeaux pour Ados & Filles (NOUVEAU - Fiches produits basées sur le N°7 de l'historique)
+    {
+        "titre": "Cadeaux de Noël pour Ados & Filles : 5 Idées Tendance (Tech, Esthétique et Créativité)",
+        "categorie": "Cadeaux par femme",
+        "slug": "cadeaux-noel-ados-filles-tendances-creatives",
+        "descriptionCourte": "Le guide ultime des cadeaux qui font mouche chez les 12-18 ans : de la déco Instagrammable aux accessoires tech stylés. Garanties sans 'OK boomer' !",
+        "contenuComplet": `
+            <h2>✨ Introduction : Les tendances qui explosent chez les ados !</h2>
+            <p>... Cette sélection est parfaite pour les budgets serrés (la plupart des produits sont <a href="meilleures-idees-cadeaux-noel-moins-de-50-euros" rel="internal">à moins de 50 €</a>) mais aussi pour compléter le panier avec un cadeau personnel... </p>
+            <h3>🎧 Produit N°1 : L'Accessoire Stylé (Casque Lexibook Barbie)</h3>
+            <p>...<a href="https://amzn.to/4rA1jqC" rel="sponsored">Je veux ce casque ultra-tendance</a>...</p>
+
+            <h3>📸 Produit N°2 : Le Souvenir Économique (Canal Toys Photo Creator)</h3>
+            <p>...<a href="https://amzn.to/49ISlAK" rel="sponsored">J'offre cet appareil photo créatif</a>...</p>
+
+            <h3>📖 Produit N°3 : Le Plaisir de Lire (Journal d'une Ado et ses Crushs)</h3>
+            <p>...<a href="https://amzn.to/4pFEbFe" rel="sponsored">Je commande ce livre phénomène</a>...</p>
+
+            <h3>💅 Produit N°4 : Le Premier Kit Esthétique (Compactset Cosmétiques L.O.L Surprise!)</h3>
+            <p>...<a href="https://amzn.to/3Y141ri" rel="sponsored">J'achète ce kit de maquillage sûr</a>...</p>
+
+            <h3>🖼️ Produit N°5 : La Déco Tendance (Affiches Van Gogh "Aesthetic Blue")</h3>
+            <p>...<a href="https://amzn.to/4rvmiuu" rel="sponsored">Je commande le set d'affiches Van Gogh</a>...</p>
+
+            <h2>🎁 Idées pour les fans de Tech</h2>
+            <p>Si elle est plus Tech, jetez un œil à la section <a href="guide-ultime-5-meilleurs-cadeaux-noel-tous-budgets" rel="internal">High-Tech de notre Guide Ultime</a>, vous y trouverez l'idée WOW qui la fera craquer !</p>
+        `,
+        // ...
+    },
+
+    // ARTICLE N°8 : Cadeaux Expérience & Box Duo (NOUVEAU - Fiches produits basées sur le N°8 de l'historique)
+    {
+        "titre": "Cadeaux Expérience & Box Duo : 5 Idées qui Créent de Vrais Souvenirs (Couple et Famille)",
+        "categorie": "Cadeaux par homme",
+        "slug": "cadeaux-experience-box-duo-souvenirs",
+        "descriptionCourte": "Offrez l'inoubliable ! Notre sélection des meilleures Box Séjour, kits DIY gourmands et jeux collaboratifs pour couple, famille ou amis.",
+        "contenuComplet": `
+            <h2>🤝 Introduction : Pourquoi offrir des souvenirs est le cadeau parfait ?</h2>
+            <p>Marre des cadeaux qui finissent au fond d'un placard ? Les cadeaux d'expérience sont la nouvelle tendance : ils offrent du temps de qualité. Que vous cherchiez un cadeau romantique pour un couple (voir notre <a href="cadeaux-luxe" rel="internal">Top 5 de Luxe</a>) ou une activité fun pour toute la famille, cette sélection est faite pour vous.</p>
+            <h3>🧳 Produit N°1 : La Grande Évasion (Smartbox Séjour en Famille)</h3>
+            <p>...<a href="https://amzn.to/3Kz3SZ4" rel="sponsored">Je commande la Smartbox</a>...</p>
+
+            <h3>🧠 Produit N°2 : Le Challenge Cerveau (Livre de Culture Générale + Quiz)</h3>
+            <p>...<a href="https://amzn.to/3XrLHaE" rel="sponsored">Je veux le livre de quiz</a>...</p>
+
+            <h3>🧀 Produit N°3 : Le DIY Gourmand (Lékué Kit Cheese Maker)</h3>
+            <p>...<a href="https://amzn.to/3KuWmyq" rel="sponsored">J'achète le kit à fromage maison</a>...</p>
+
+            <h3>🔓 Produit N°4 : Le Thriller à la Maison (Dujardin Escape Game Électronique)</h3>
+            <p>...<a href="https://amzn.to/4pGCuYb" rel="sponsored">Je prends l'Escape Game pour la maison</a>...</p>
+
+            <h3>✨ Produit N°5 : Le Projet Déco (Puzzle 3D Pokémon Ball Illuminé)</h3>
+            <p>...<a href="https://amzn.to/4isAtfD" rel="sponsored">Je commande le Puzzle Lampe Pokémon</a>...</p>
+
+            <h2>🎁 Les petits budgets peuvent aussi offrir des expériences !</h2>
+            <p>Vous avez aimé l'idée du Puzzle 3D ? Retrouvez d'autres cadeaux abordables et originaux dans notre <a href="meilleures-idees-cadeaux-noel-moins-de-50-euros" rel="internal">sélection à moins de 50 €</a>.</p>
+        `,
+        // ...
+    }
+];
+// ... (Les autres blocs JSON pour le maillage des articles 1 à 5 seraient ajoutés ici pour compléter le fichier)
+// ...

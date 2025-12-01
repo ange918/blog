@@ -50,6 +50,33 @@ import poldinaImage from "@assets/WhatsApp Image 2025-11-29 at 16.54.58_17644318
 import moonGlobeImage from "@assets/WhatsApp Image 2025-11-29 at 16.54.57_1764431804992.jpeg";
 import popcornImage from "@assets/WhatsApp Image 2025-11-29 at 16.54.57 (1)_1764431804990.jpeg";
 
+// Article 6 - Guide Ultime images
+import monopolyImage from "@assets/IMG_7488_1764594940833.jpeg";
+import jblImage from "@assets/IMG_7493_1764594940833.jpeg";
+import humidifierImage from "@assets/IMG_7495_1764594940833.jpeg";
+import russellHobbsImage from "@assets/IMG_7496_1764594940833.jpeg";
+import metaQuestImage from "@assets/IMG_7499_1764594940833.jpeg";
+
+// Article 7 - Ados & Filles images
+import barbieHeadphonesImage from "@assets/IMG_7500_1764594940833.jpeg";
+import photoCreatorImage from "@assets/IMG_7501_1764594940833.jpeg";
+import journalAdoImage from "@assets/IMG_7502_1764594940833.jpeg";
+import lolCosmeticsImage from "@assets/IMG_7504_1764594940833.jpeg";
+import vanGoghImage from "@assets/IMG_7505_1764594940833.jpeg";
+
+// Article 8 - Experience & Box Duo images
+import smartboxImage from "@assets/IMG_7506_1764594940833.jpeg";
+import cultureBookImage from "@assets/IMG_7507_1764594940833.jpeg";
+import escapeGameImage from "@assets/IMG_7508_1764594940833.jpeg";
+import cheeseMakerImage from "@assets/IMG_7509_1764594940833.jpeg";
+import pokemonPuzzleImage from "@assets/IMG_7512_1764594940833.jpeg";
+
+// Additional images for luxury/other articles
+import melittaCoffeeImage from "@assets/IMG_7486_1764594940833.jpeg";
+import treadmillImage from "@assets/IMG_7484_1764594940833.jpeg";
+import dreameRobotImage from "@assets/IMG_7483_1764594940833.jpeg";
+import playstationPortalImage from "@assets/IMG_7482_1764594940833.jpeg";
+
 export interface Category {
   id: string;
   title: string;
@@ -716,6 +743,450 @@ export const articles: Article[] = [
         description: "Assortiment de bougies votives aux senteurs de Noël.",
         affiliateLink: "https://amzn.to/4pE9xw1",
         rating: 4.9
+      }
+    ]
+  },
+  {
+    id: "10",
+    title: "Le Guide Ultime de Noël : Les 5 Cadeaux Incontournables de l'Année (De 20 € à +500 €)",
+    slug: "guide-ultime-5-meilleurs-cadeaux-noel-tous-budgets",
+    category: "guides-complets",
+    image: guideUltimeImage,
+    date: "1 Déc 2025",
+    author: "Père Noël",
+    excerpt: "Le Top 5 des produits qui ont marqué l'année ! Notre sélection sans compromis : jeux, tech, cuisine, et l'idée WOW pour le cadeau phare.",
+    content: `
+      <h2 id="intro">Introduction : Le Top 5 qui garantit le succès à tous les budgets !</h2>
+      <p>C'est la sélection des meilleurs produits, quel que soit votre budget ! Fini les heures de recherche. Que vous cherchiez un cadeau abordable ou que vous visiez l'exceptionnel, ces 5 produits sont les meilleurs du marché cette année. Chacun a été testé et approuvé par des milliers d'acheteurs satisfaits.</p>
+      <p>Ce guide rassemble <strong>5 cadeaux de 20 € à plus de 500 €</strong> qui combinent qualité, originalité et rapport qualité-prix imbattable. Du jeu de société pour toute la famille au casque de réalité mixte, en passant par des accessoires indispensables du quotidien.</p>
+
+      <div class="bg-muted/50 p-6 rounded-xl border border-border my-8">
+        <h3 class="text-xl font-bold mb-4 mt-0">Dans ce guide :</h3>
+        <ul class="list-none pl-0 space-y-2">
+          <li><a href="#idee-1" class="flex items-center gap-2"><span class="text-secondary">01.</span> Le Plus Ludique (Monopoly Animal Crossing)</a></li>
+          <li><a href="#idee-2" class="flex items-center gap-2"><span class="text-secondary">02.</span> Le Son Nomade (JBL Charge 6)</a></li>
+          <li><a href="#idee-3" class="flex items-center gap-2"><span class="text-secondary">03.</span> Le Bien-Être Essentiel (Humidificateur Homvana)</a></li>
+          <li><a href="#idee-4" class="flex items-center gap-2"><span class="text-secondary">04.</span> La Convivialité 3-en-1 (Russell Hobbs Fiesta)</a></li>
+          <li><a href="#idee-5" class="flex items-center gap-2"><span class="text-secondary">05.</span> Le Cadeau WOW (Meta Quest 3S)</a></li>
+        </ul>
+      </div>
+
+      <h2 id="idee-1">Le Plus Ludique (Monopoly Animal Crossing New Horizons)</h2>
+      
+      <h3>Le jeu de société parfait pour toute la famille</h3>
+      <p>Le Monopoly Animal Crossing New Horizons réinvente le classique avec l'univers coloré et apaisant du jeu vidéo phénomène. Au lieu d'acheter des propriétés, vous développez une île paradisiaque, collectez des insectes, des poissons et des fossiles. Les règles sont simplifiées pour des parties plus courtes et moins frustrantes que le Monopoly classique.</p>
+
+      <h3>Pourquoi c'est un succès</h3>
+      <p>Ce n'est pas qu'un jeu pour les fans d'Animal Crossing. C'est un Monopoly repensé pour le plaisir de jouer, pas pour ruiner les amitiés ! Les parties durent environ 60 minutes, parfait pour une soirée en famille. Les figurines sont adorables et les illustrations fidèles à l'univers du jeu. Un cadeau qui rassemble les générations.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/34xG5bM" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir le Monopoly Animal Crossing
+        </a>
+      </div>
+
+      <h2 id="idee-2">Le Son Nomade (JBL Charge 6)</h2>
+
+      <h3>L'enceinte qui vous suit partout</h3>
+      <p>La JBL Charge 6 est LA référence des enceintes Bluetooth portables. Avec son autonomie de 24 heures, sa certification IP67 (résistante à l'eau et à la poussière) et son son signature JBL puissant, elle accompagne toutes vos aventures. De la plage au jardin, de la randonnée à la soirée, elle délivre un son clair et des basses profondes.</p>
+
+      <h3>La fonction power bank</h3>
+      <p>Petite astuce que peu de gens connaissent : la JBL Charge 6 peut recharger votre smartphone en cas d'urgence ! C'est le bonus qui fait toute la différence lors d'une journée en extérieur. Son design robuste et ses couleurs variées en font un accessoire aussi esthétique que performant.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3A7t1cM" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Découvrir la JBL Charge 6
+        </a>
+      </div>
+
+      <h2 id="idee-3">Le Bien-Être Essentiel (Humidificateur Homvana)</h2>
+
+      <h3>L'air sain pour toute la famille</h3>
+      <p>En hiver, l'air sec des intérieurs chauffés assèche la peau, irrite les voies respiratoires et favorise les rhumes. L'humidificateur Homvana est la solution élégante à ce problème. Son design moderne avec éclairage LED d'ambiance en fait un objet déco autant qu'un appareil de santé. Il est ultra-silencieux, parfait pour la chambre à coucher.</p>
+
+      <h3>Compatible huiles essentielles</h3>
+      <p>Le petit plus qui fait la différence : vous pouvez ajouter quelques gouttes d'huiles essentielles pour transformer votre pièce en spa. Eucalyptus pour dégager les voies respiratoires, lavande pour favoriser le sommeil... C'est un cadeau qui prend soin de toute la famille, jour et nuit.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3Jc0N9L" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Acheter l'Humidificateur Homvana
+        </a>
+      </div>
+
+      <h2 id="idee-4">La Convivialité 3-en-1 (Russell Hobbs Fiesta)</h2>
+
+      <h3>Croque-monsieur, gaufres et grillades</h3>
+      <p>L'appareil Russell Hobbs Fiesta est l'ami des brunchs et des soirées gourmandes. Avec ses plaques interchangeables, il passe du croque-monsieur aux gaufres, des paninis aux grillades. Sa puissance de 750W assure une cuisson rapide et homogène. Les plaques antiadhésives se nettoient en un coup d'éponge.</p>
+
+      <h3>Le cadeau qui rassemble</h3>
+      <p>Ce n'est pas qu'un appareil de cuisine, c'est un générateur de moments conviviaux. Imaginez un dimanche matin avec des gaufres maison, ou une soirée croque-monsieur improvisée entre amis. Son prix abordable et sa polyvalence en font un des cadeaux les plus appréciés de cette sélection.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/48miymg" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir l'appareil Russell Hobbs
+        </a>
+      </div>
+
+      <h2 id="idee-5">Le Cadeau WOW (Meta Quest 3S)</h2>
+
+      <h3>La réalité mixte accessible</h3>
+      <p>Le Meta Quest 3S est la porte d'entrée vers la réalité virtuelle et mixte. Contrairement aux générations précédentes, il permet de voir votre environnement réel tout en y ajoutant des éléments virtuels. Jouez à des jeux immersifs, faites du fitness en VR, voyagez dans des mondes virtuels ou assistez à des concerts comme si vous y étiez.</p>
+
+      <h3>Pourquoi c'est LE cadeau de l'année</h3>
+      <p>Aucun fil, aucun PC nécessaire : le Quest 3S est autonome. Sa bibliothèque de jeux et d'expériences est immense et ne cesse de grandir. C'est un cadeau qui impressionne à l'ouverture et qui continue d'émerveiller pendant des mois. Pour les gamers, les curieux de tech ou simplement ceux qui veulent vivre des expériences uniques.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/43YEiDq" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Offrir le Meta Quest 3S
+        </a>
+      </div>
+
+      <div class="bg-primary p-8 rounded-2xl text-center mt-12">
+        <h3 class="font-serif text-2xl font-bold mb-4 !text-white">Résumé</h3>
+        <p class="mb-6 !text-white/90">
+          Ces 5 cadeaux représentent le meilleur de chaque catégorie en 2025. Du jeu de société familial à la technologie de pointe, en passant par le bien-être et la convivialité, chaque produit a été sélectionné pour sa capacité à créer des moments mémorables.
+        </p>
+        <p class="font-bold !text-white">
+          Quel que soit votre budget, vous trouverez ici l'inspiration pour un Noël réussi !
+        </p>
+      </div>
+    `,
+    products: [
+      {
+        name: "Monopoly Animal Crossing",
+        price: "Voir prix",
+        image: monopolyImage,
+        description: "Jeu de société familial dans l'univers d'Animal Crossing.",
+        affiliateLink: "https://amzn.to/34xG5bM",
+        rating: 4.7
+      },
+      {
+        name: "JBL Charge 6",
+        price: "Voir prix",
+        image: jblImage,
+        description: "Enceinte Bluetooth portable, étanche, autonomie 24h.",
+        affiliateLink: "https://amzn.to/3A7t1cM",
+        rating: 4.8
+      },
+      {
+        name: "Humidificateur Homvana",
+        price: "Voir prix",
+        image: humidifierImage,
+        description: "Humidificateur silencieux avec LED et diffuseur d'huiles.",
+        affiliateLink: "https://amzn.to/3Jc0N9L",
+        rating: 4.6
+      },
+      {
+        name: "Russell Hobbs Fiesta",
+        price: "Voir prix",
+        image: russellHobbsImage,
+        description: "Appareil 3-en-1 : croque-monsieur, gaufres, grillades.",
+        affiliateLink: "https://amzn.to/48miymg",
+        rating: 4.5
+      },
+      {
+        name: "Meta Quest 3S",
+        price: "Voir prix",
+        image: metaQuestImage,
+        description: "Casque de réalité mixte autonome dernière génération.",
+        affiliateLink: "https://amzn.to/43YEiDq",
+        rating: 4.9
+      }
+    ]
+  },
+  {
+    id: "11",
+    title: "Cadeaux de Noël pour Ados & Filles : 5 Idées Tendance (Tech, Esthétique et Créativité)",
+    slug: "cadeaux-noel-ados-filles-tendances-creatives",
+    category: "cadeaux-par-personne",
+    image: familyImage,
+    date: "1 Déc 2025",
+    author: "Père Noël",
+    excerpt: "Le guide ultime des cadeaux qui font mouche chez les 12-18 ans : de la déco Instagrammable aux accessoires tech stylés. Garanties sans 'OK boomer' !",
+    content: `
+      <h2 id="intro">Introduction : Les tendances qui explosent chez les ados !</h2>
+      <p>Offrir un cadeau à une adolescente peut être un véritable défi. Leurs goûts évoluent vite, les tendances changent du jour au lendemain, et le risque du "c'est nul" à l'ouverture du paquet est réel. Pas de panique ! Notre sélection 2025 a été validée par de vraies ados et répond aux tendances actuelles : esthétique, créativité, et une touche de tech.</p>
+      <p>Ces <strong>5 idées de cadeaux</strong> couvrent tous les profils : la fan de musique, la créative, la bookworm, l'apprentie makeup artist et l'amoureuse de déco. Le tout à des prix raisonnables, parfaits pour un budget de parent ou de parrain/marraine.</p>
+
+      <div class="bg-muted/50 p-6 rounded-xl border border-border my-8">
+        <h3 class="text-xl font-bold mb-4 mt-0">Dans ce guide :</h3>
+        <ul class="list-none pl-0 space-y-2">
+          <li><a href="#idee-1" class="flex items-center gap-2"><span class="text-secondary">01.</span> L'Accessoire Stylé (Casque Lexibook Barbie)</a></li>
+          <li><a href="#idee-2" class="flex items-center gap-2"><span class="text-secondary">02.</span> Le Souvenir Économique (Photo Creator 3-en-1)</a></li>
+          <li><a href="#idee-3" class="flex items-center gap-2"><span class="text-secondary">03.</span> Le Plaisir de Lire (Journal d'une Ado et ses Crushs)</a></li>
+          <li><a href="#idee-4" class="flex items-center gap-2"><span class="text-secondary">04.</span> Le Premier Kit Esthétique (L.O.L Surprise! Cosmétiques)</a></li>
+          <li><a href="#idee-5" class="flex items-center gap-2"><span class="text-secondary">05.</span> La Déco Tendance (Affiches Van Gogh Aesthetic)</a></li>
+        </ul>
+      </div>
+
+      <h2 id="idee-1">L'Accessoire Stylé (Casque Lexibook Barbie)</h2>
+      
+      <h3>Le casque qui fait craquer les fans</h3>
+      <p>Le casque Lexibook Barbie est bien plus qu'un accessoire audio : c'est un statement de style. Avec ses oreilles de chat, ses couleurs rose et turquoise, et son design ultra-tendance, il fait sensation sur les réseaux sociaux. La connexion Bluetooth est stable, le son est clair et adapté aux oreilles sensibles des plus jeunes.</p>
+
+      <h3>Sécurité audio intégrée</h3>
+      <p>Point crucial pour les parents : le volume est limité à 85 dB pour protéger l'audition. C'est un cadeau fun ET responsable. Le coussin rembourré assure un confort optimal pour les longues sessions de musique ou de vidéos. Les ados l'adorent, les parents l'approuvent !</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4rA1jqC" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir le Casque Lexibook Barbie
+        </a>
+      </div>
+
+      <h2 id="idee-2">Le Souvenir Économique (Canal Toys Photo Creator 3-en-1)</h2>
+
+      <h3>L'appareil photo qui imprime instantanément</h3>
+      <p>Le Photo Creator de Canal Toys combine appareil photo, caméra vidéo et imprimante instantanée en un seul gadget coloré. Les ados adorent capturer leurs moments et les imprimer immédiatement pour les coller partout : casiers, carnets, murs de chambre. Les tirages sont en noir et blanc sur papier thermique, pas besoin d'encre !</p>
+
+      <h3>Créativité sans limites</h3>
+      <p>Le kit inclut des stickers et des feutres pour personnaliser chaque tirage. C'est le mariage parfait entre tech et DIY. À un prix très abordable, c'est le cadeau idéal pour les ados créatives qui veulent capturer leurs souvenirs de façon tangible, loin de l'éphémère des stories.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/49ISlAK" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Découvrir le Photo Creator
+        </a>
+      </div>
+
+      <h2 id="idee-3">Le Plaisir de Lire (Journal d'une Ado et ses Crushs)</h2>
+
+      <h3>Le livre qui parle vraiment aux ados</h3>
+      <p>Ce livre de Vanessa Lahmi est un phénomène chez les 12-16 ans. Il raconte avec humour et tendresse les premiers émois amoureux, les amitiés compliquées et les questionnements de l'adolescence. Le ton est moderne, drôle et bienveillant. Les lectrices s'y reconnaissent et dévorent les pages.</p>
+
+      <h3>Un cadeau qui encourage la lecture</h3>
+      <p>Dans un monde d'écrans, offrir un livre peut sembler risqué. Mais celui-ci a fait ses preuves : il transforme des non-lectrices en dévoreuses de pages ! C'est le cadeau parfait pour les ados qui pensent ne pas aimer lire. Bonus : il existe toute une série, de quoi alimenter les prochains anniversaires.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4pFEbFe" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Commander le livre
+        </a>
+      </div>
+
+      <h2 id="idee-4">Le Premier Kit Esthétique (L.O.L Surprise! Cosmétiques)</h2>
+
+      <h3>Le maquillage adapté aux plus jeunes</h3>
+      <p>Le coffret L.O.L Surprise! est la porte d'entrée idéale dans le monde du maquillage. Les formules sont douces, testées dermatologiquement et faciles à enlever. Le packaging fun avec miroir intégré en fait un vrai petit trésor à ranger dans la chambre. Les couleurs sont variées : des pailletées aux plus naturelles.</p>
+
+      <h3>Pourquoi c'est un bon choix</h3>
+      <p>Plutôt que de laisser les ados piocher dans du maquillage non adapté, ce kit leur offre des produits sûrs pour expérimenter. C'est aussi un excellent moyen d'apprendre les bases du maquillage tout en s'amusant. Les parents apprécient, les ados adorent !</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3Y141ri" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Voir le Kit L.O.L Surprise!
+        </a>
+      </div>
+
+      <h2 id="idee-5">La Déco Tendance (Affiches Van Gogh Aesthetic Blue)</h2>
+
+      <h3>L'art classique version TikTok</h3>
+      <p>Ces affiches Van Gogh revisitées dans des tons bleus "aesthetic" sont partout sur les réseaux sociaux. Elles transforment n'importe quelle chambre en espace Instagrammable. Le set inclut plusieurs reproductions des œuvres les plus iconiques du peintre : Les Iris, Amandier en fleurs, Le Moulin de la Galette...</p>
+
+      <h3>Qualité et facilité d'installation</h3>
+      <p>Imprimées sur papier de qualité, ces affiches sont prêtes à être encadrées ou simplement punaisées au mur. C'est le cadeau parfait pour les ados qui veulent personnaliser leur espace sans se ruiner. Un peu d'art, beaucoup de style, et l'assurance de faire mouche !</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4rvmiuu" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Commander les Affiches Van Gogh
+        </a>
+      </div>
+
+      <div class="bg-primary p-8 rounded-2xl text-center mt-12">
+        <h3 class="font-serif text-2xl font-bold mb-4 !text-white">Résumé</h3>
+        <p class="mb-6 !text-white/90">
+          Ces 5 cadeaux couvrent les principales tendances chez les ados en 2025 : style, créativité, lecture et déco. Chaque produit a été choisi pour son rapport qualité-prix et sa capacité à vraiment plaire à cette tranche d'âge exigeante.
+        </p>
+        <p class="font-bold !text-white">
+          Faites le bon choix et évitez le redouté "OK boomer" à l'ouverture des cadeaux !
+        </p>
+      </div>
+    `,
+    products: [
+      {
+        name: "Casque Lexibook Barbie",
+        price: "Voir prix",
+        image: barbieHeadphonesImage,
+        description: "Casque Bluetooth avec oreilles de chat, volume limité.",
+        affiliateLink: "https://amzn.to/4rA1jqC",
+        rating: 4.5
+      },
+      {
+        name: "Photo Creator 3-en-1",
+        price: "Voir prix",
+        image: photoCreatorImage,
+        description: "Appareil photo avec imprimante instantanée intégrée.",
+        affiliateLink: "https://amzn.to/49ISlAK",
+        rating: 4.4
+      },
+      {
+        name: "Journal d'une Ado",
+        price: "Voir prix",
+        image: journalAdoImage,
+        description: "Livre tendance sur les premiers émois de l'adolescence.",
+        affiliateLink: "https://amzn.to/4pFEbFe",
+        rating: 4.7
+      },
+      {
+        name: "L.O.L Surprise! Cosmétiques",
+        price: "Voir prix",
+        image: lolCosmeticsImage,
+        description: "Kit maquillage complet adapté aux plus jeunes.",
+        affiliateLink: "https://amzn.to/3Y141ri",
+        rating: 4.6
+      },
+      {
+        name: "Affiches Van Gogh Aesthetic",
+        price: "Voir prix",
+        image: vanGoghImage,
+        description: "Set d'affiches artistiques dans les tons bleus tendance.",
+        affiliateLink: "https://amzn.to/4rvmiuu",
+        rating: 4.8
+      }
+    ]
+  },
+  {
+    id: "12",
+    title: "Cadeaux Expérience & Box Duo : 5 Idées qui Créent de Vrais Souvenirs (Couple et Famille)",
+    slug: "cadeaux-experience-box-duo-souvenirs",
+    category: "cadeaux-originaux-et-difficiles",
+    image: originalImage,
+    date: "1 Déc 2025",
+    author: "Père Noël",
+    excerpt: "Offrez l'inoubliable ! Notre sélection des meilleures Box Séjour, kits DIY gourmands et jeux collaboratifs pour couple, famille ou amis.",
+    content: `
+      <h2 id="intro">Introduction : Pourquoi offrir des souvenirs est le cadeau parfait ?</h2>
+      <p>Marre des cadeaux qui finissent au fond d'un placard ? Les cadeaux d'expérience sont la nouvelle tendance : ils offrent du temps de qualité, des souvenirs impérissables et des moments de partage. Que vous cherchiez un cadeau romantique pour un couple ou une activité fun pour toute la famille, cette sélection est faite pour vous.</p>
+      <p>Ces <strong>5 idées de cadeaux expérience</strong> couvrent tous les goûts : du voyage à l'aventure culinaire, du défi intellectuel au projet créatif. Le point commun ? Ils créent des souvenirs durables et renforcent les liens.</p>
+
+      <div class="bg-muted/50 p-6 rounded-xl border border-border my-8">
+        <h3 class="text-xl font-bold mb-4 mt-0">Dans ce guide :</h3>
+        <ul class="list-none pl-0 space-y-2">
+          <li><a href="#idee-1" class="flex items-center gap-2"><span class="text-secondary">01.</span> La Grande Évasion (Smartbox Séjour en Famille)</a></li>
+          <li><a href="#idee-2" class="flex items-center gap-2"><span class="text-secondary">02.</span> Le Challenge Cerveau (Livre Culture Générale + Quiz)</a></li>
+          <li><a href="#idee-3" class="flex items-center gap-2"><span class="text-secondary">03.</span> Le DIY Gourmand (Lékué Kit Cheese Maker)</a></li>
+          <li><a href="#idee-4" class="flex items-center gap-2"><span class="text-secondary">04.</span> Le Thriller à la Maison (Escape Game Électronique)</a></li>
+          <li><a href="#idee-5" class="flex items-center gap-2"><span class="text-secondary">05.</span> Le Projet Déco (Puzzle 3D Pokémon Illuminé)</a></li>
+        </ul>
+      </div>
+
+      <h2 id="idee-1">La Grande Évasion (Smartbox Séjour en Famille)</h2>
+      
+      <h3>Un voyage à choisir ensemble</h3>
+      <p>La Smartbox Séjour en Famille offre plus qu'une nuit d'hôtel : c'est une promesse d'aventure à construire ensemble. Avec des centaines de destinations possibles en France et en Europe, chaque famille peut choisir l'escapade qui lui ressemble. Châteaux, campagne, bord de mer... le choix est vaste et la flexibilité totale.</p>
+
+      <h3>Le cadeau qui fait rêver longtemps</h3>
+      <p>L'avantage d'une Smartbox, c'est qu'elle prolonge le plaisir : d'abord l'excitation du choix, puis l'anticipation du voyage, et enfin les souvenirs durables. C'est bien plus qu'un objet : c'est une expérience partagée qui restera gravée dans les mémoires familiales.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3Kz3SZ4" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Offrir la Smartbox Famille
+        </a>
+      </div>
+
+      <h2 id="idee-2">Le Challenge Cerveau (Livre Culture Générale + Quiz)</h2>
+
+      <h3>Pour les curieux et les challengers</h3>
+      <p>Ce livre de culture générale est bien plus qu'un simple ouvrage : c'est un défi lancé à toute la famille ou aux amis. Avec ses 100 quiz couvrant l'histoire, la politique, l'économie, la science, la religion et la littérature, il promet des heures de débats passionnés et de découvertes surprenantes.</p>
+
+      <h3>L'apprentissage par le jeu</h3>
+      <p>Fini les révisions ennuyeuses ! Ce format ludique transforme la culture générale en compétition amicale. Parfait pour les apéros, les longs trajets en voiture ou les soirées en famille. C'est le cadeau qui enrichit tout en divertissant, et qui donne envie d'en apprendre toujours plus.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3XrLHaE" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Commander le Livre Quiz
+        </a>
+      </div>
+
+      <h2 id="idee-3">Le DIY Gourmand (Lékué Kit Cheese Maker)</h2>
+
+      <h3>Fabriquez votre fromage maison</h3>
+      <p>Le kit Cheese Maker de Lékué permet de réaliser du fromage frais maison en quelques minutes au micro-ondes. Fromage blanc, ricotta, paneer... Les possibilités sont nombreuses et le résultat est bluffant. Le kit inclut un livre de recettes pour guider les débutants pas à pas.</p>
+
+      <h3>L'expérience culinaire à partager</h3>
+      <p>C'est le cadeau parfait pour les couples gourmands ou les familles qui aiment cuisiner ensemble. Imaginez la fierté de servir à vos invités un fromage fait maison ! C'est aussi une façon de contrôler ce qu'on mange et de découvrir les secrets de la fromagerie. Un cadeau original qui se déguste !</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/3KuWmyq" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Acheter le Kit Cheese Maker
+        </a>
+      </div>
+
+      <h2 id="idee-4">Le Thriller à la Maison (Dujardin Escape Game Électronique)</h2>
+
+      <h3>L'escape room dans votre salon</h3>
+      <p>Le jeu Escape Game Électronique de Dujardin propose une vraie expérience d'escape room à domicile. Avec son cadenas électronique interactif, ses cartes d'énigmes et son chronomètre intégré, il plonge les joueurs dans une course contre la montre palpitante. Résolvez les indices, trouvez le code, ouvrez le cadenas !</p>
+
+      <h3>Teambuilding familial</h3>
+      <p>Ce jeu est parfait pour les soirées en famille ou entre amis. Il favorise la communication, la réflexion collective et crée des moments de complicité intenses. Le format rejouable permet de défier différents groupes d'amis. C'est le cadeau qui transforme n'importe quelle soirée en aventure mémorable.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4pGCuYb" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Découvrir l'Escape Game
+        </a>
+      </div>
+
+      <h2 id="idee-5">Le Projet Déco (Puzzle 3D Pokémon Ball Illuminé)</h2>
+
+      <h3>Construire ensemble, décorer ensemble</h3>
+      <p>Ce puzzle 3D Ravensburger de 72 pièces représente une Pokéball avec les personnages les plus iconiques de l'univers Pokémon. Une fois assemblé, il devient une veilleuse grâce à un socle lumineux activé au clap. C'est le cadeau parfait pour les fans de Pokémon, des plus jeunes aux adultes nostalgiques.</p>
+
+      <h3>Qualité et satisfaction garanties</h3>
+      <p>Ravensburger est synonyme de qualité : les pièces s'emboîtent parfaitement grâce à la technologie Easyclick. Le résultat est solide, sans besoin de colle. C'est un projet à réaliser ensemble qui devient ensuite un objet de décoration unique. Le souvenir de la construction s'ajoute au plaisir de l'objet fini.</p>
+
+      <div class="my-8 text-center">
+        <a href="https://amzn.to/4isAtfD" rel="sponsored" target="_blank" class="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+          Commander le Puzzle Pokémon
+        </a>
+      </div>
+
+      <div class="bg-primary p-8 rounded-2xl text-center mt-12">
+        <h3 class="font-serif text-2xl font-bold mb-4 !text-white">Résumé</h3>
+        <p class="mb-6 !text-white/90">
+          Ces 5 cadeaux d'expérience ont un point commun : ils créent des souvenirs plutôt que d'accumuler des objets. Du voyage partagé au défi culinaire, de l'escape room à la construction créative, chaque idée favorise le temps de qualité passé ensemble.
+        </p>
+        <p class="font-bold !text-white">
+          Offrez des moments, pas des choses. C'est le secret d'un cadeau vraiment mémorable !
+        </p>
+      </div>
+    `,
+    products: [
+      {
+        name: "Smartbox Séjour Famille",
+        price: "Voir prix",
+        image: smartboxImage,
+        description: "Coffret voyage avec centaines de destinations au choix.",
+        affiliateLink: "https://amzn.to/3Kz3SZ4",
+        rating: 4.6
+      },
+      {
+        name: "Livre Culture Générale",
+        price: "Voir prix",
+        image: cultureBookImage,
+        description: "100 quiz couvrant histoire, science, littérature et plus.",
+        affiliateLink: "https://amzn.to/3XrLHaE",
+        rating: 4.5
+      },
+      {
+        name: "Lékué Kit Cheese Maker",
+        price: "Voir prix",
+        image: cheeseMakerImage,
+        description: "Kit pour fabriquer du fromage frais maison en minutes.",
+        affiliateLink: "https://amzn.to/3KuWmyq",
+        rating: 4.7
+      },
+      {
+        name: "Escape Game Électronique",
+        price: "Voir prix",
+        image: escapeGameImage,
+        description: "Jeu d'escape room à domicile avec cadenas électronique.",
+        affiliateLink: "https://amzn.to/4pGCuYb",
+        rating: 4.6
+      },
+      {
+        name: "Puzzle 3D Pokémon Lumineux",
+        price: "Voir prix",
+        image: pokemonPuzzleImage,
+        description: "Puzzle 3D Ravensburger qui devient veilleuse.",
+        affiliateLink: "https://amzn.to/4isAtfD",
+        rating: 4.8
       }
     ]
   }
